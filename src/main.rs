@@ -1,28 +1,24 @@
 mod board;
 mod game;
 
-use std::env;
 use game::Game;
 use board::Cell;
 
+use cpuprofiler::PROFILER;
+
 fn main () {
-    let args: Vec<String> = env::args().collect();
-    println!("{:?}", args);
-
-    let width = 10;
-    let height = 10;
-
-    let mut game = Game::new(width, height);
+    let mut game = Game::new(1000, 1000);
     game[0][1] = Cell::Alive;
     game[1][2] = Cell::Alive;
     game[2][0] = Cell::Alive;
     game[2][1] = Cell::Alive;
     game[2][2] = Cell::Alive;
 
-    println!("{}", game);
+    PROFILER.lock().unwrap().start("./my-prof.profile").unwrap();
 
-    loop {
-        println!("{}", game.next_gen());
-        std::thread::sleep(std::time::Duration::from_millis(100));
+    for _i in 1..1000 {
+        game.next_gen();
     }
+
+    PROFILER.lock().unwrap().stop().unwrap();
 }
