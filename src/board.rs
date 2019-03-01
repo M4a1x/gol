@@ -50,6 +50,7 @@ impl Board {
                 }
             }
         }
+        output.iteration += 1;
     }
 
     fn alive_neighbours(&self, row: usize, col: usize) -> u8 {
