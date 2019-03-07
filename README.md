@@ -10,6 +10,7 @@ The goal of this is to show possible implementations of the famous Game of Life 
 Requirements
 ------------
 
+<<<<<<< HEAD
 The branches `optimize` and `reference` need `gperftools` to be installed on the system.
 
 ToDo
@@ -28,3 +29,6 @@ ToDo
   * Run on GPU with e.g. [ArrayFire](https://github.com/arrayfire/arrayfire) or [RustaCUDA](https://github.com/bheisler/RustaCUDA)
   * Take inspirations from [Golly](https://sourceforge.net/projects/golly/)
   * Read in of [.lif/.life files among others](http://www.mirekw.com/ca/ca_files_formats.html)
+=======
+The branches `optimize` and `reference` need `gperftools` to be installed on the system.
+>>>>>>> reference
