@@ -4,14 +4,43 @@ Conway's Game of Life in Rust
 Goal
 ----
 
-The goal of this is to show possible implementations of the famous Game of Life in Rust in various degrees of optimization. This is mainly a project for me to learn the language and might be useful to others.
+The goal of this is to show possible implementations of the famous Game of Life in Rust in various degrees of optimization. The idea here is to optimize the approach as in data representation and algorithm before optimizing the performed number of instructions. 
+
+This is mainly a project for me to learn the language and might be useful to others.
 
 
 Requirements
 ------------
 
-<<<<<<< HEAD
-The branches `optimize` and `reference` need `gperftools` to be installed on the system.
+* `gperftools` for profiling
+* `gnuplot` for benchmark plots with [Criterion.rs](https://github.com/bheisler/criterion.rs)
+
+
+Optimizations/Ideas of the different approaches
+-----------------------------------------------
+
+* Naive
+  * Cells represented by enums
+  * 2x 1D Array of Cells on heap for the board, swapping every generation
+  * Go through every cell, access all neighbours and count alive alive ones
+* New Cell Model
+  * Based on [Graphics Programming Black Book, Chapter 17](http://www.jagregory.com/abrash-black-book/#chapter-17-the-game-of-life)
+  * Save count of alive neighbours in each cell, because cell states change rather infrequently
+  * Update all neighbours when cell is born or dies
+* Change List
+  * Based on [Graphics Programming Black Book, Chapter 18](http://www.jagregory.com/abrash-black-book/#chapter-18-its-a-plain-wonderful-life)
+  * In addition to the grid, have a change list, that contains all cells that might change next generation and loop over this instead of the whole grid
+* Table
+  * Lookup the next state based on current state and neighbours in a table, instead of calculating everything every time
+
+
+About the Game
+--------------
+
+* Cells change state quite infrequently
+* Most of the time, the board is mostly empty
+* Lots of repeating patterns
+
 
 ToDo
 ----
@@ -29,6 +58,3 @@ ToDo
   * Run on GPU with e.g. [ArrayFire](https://github.com/arrayfire/arrayfire) or [RustaCUDA](https://github.com/bheisler/RustaCUDA)
   * Take inspirations from [Golly](https://sourceforge.net/projects/golly/)
   * Read in of [.lif/.life files among others](http://www.mirekw.com/ca/ca_files_formats.html)
-=======
-The branches `optimize` and `reference` need `gperftools` to be installed on the system.
->>>>>>> reference
