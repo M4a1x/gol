@@ -1,5 +1,3 @@
-mod naive;
-
 fn main() {
-    naive::main();
+    gol::run();
 }
