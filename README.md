@@ -63,3 +63,4 @@ ToDo
   * Run on GPU with e.g. [ArrayFire](https://github.com/arrayfire/arrayfire) or [RustaCUDA](https://github.com/bheisler/RustaCUDA)
   * Take inspirations from [Golly](https://sourceforge.net/projects/golly/)
   * Read in of [.lif/.life files among others](http://www.mirekw.com/ca/ca_files_formats.html)
+  * Take inspirations from [conwaylife.com forum](https://conwaylife.com/forums/viewtopic.php?f=7&t=20&start=50), especially the 2019 ioccc entry by dogon
