@@ -64,3 +64,4 @@ ToDo
   * Take inspirations from [Golly](https://sourceforge.net/projects/golly/)
   * Read in of [.lif/.life files among others](http://www.mirekw.com/ca/ca_files_formats.html)
   * Take inspirations from [conwaylife.com forum](https://conwaylife.com/forums/viewtopic.php?f=7&t=20&start=50), especially the 2019 ioccc entry by dogon
+  * Get more input from [jason's life page](http://entropymine.com/jason/life/)
