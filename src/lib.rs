@@ -1,4 +1,7 @@
+use parser::Rules;
+
 mod naive;
+mod parser;
 
 pub fn run() {
     run_naive();
@@ -8,14 +11,7 @@ fn run_naive() {
     use naive::*;
     use std::thread;
     use std::time;
-    let mut game = Game::new(
-        5,
-        5,
-        Rules {
-            survive: vec![2, 3],
-            birth: vec![3],
-        },
-    );
+    let mut game = Game::new(5, 5, Rules::default());
 
     game[0][1] = Cell::Alive;
     game[1][2] = Cell::Alive;

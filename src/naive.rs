@@ -7,17 +7,11 @@ pub enum Cell {
 impl std::fmt::Display for Cell {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         let s = match self {
-            Cell::Alive => "X",
+            Cell::Alive => "*",
             Cell::Dead => ".",
         };
         write!(f, "{}", s)
     }
-}
-
-#[derive(Clone, Debug)]
-pub struct Rules {
-    pub survive: Vec<u8>,
-    pub birth: Vec<u8>,
 }
 
 //////////////////////////////////// Board ////////////////////////////////////
@@ -113,11 +107,11 @@ pub struct Game {
     main_board: Board,
     shadow_board: Board,
     shadow_board_active: bool,
-    ruleset: Rules,
+    ruleset: crate::Rules,
 }
 
 impl Game {
-    pub fn new(cols: usize, rows: usize, ruleset: Rules) -> Self {
+    pub fn new(cols: usize, rows: usize, ruleset: crate::Rules) -> Self {
         Game {
             main_board: Board::new(cols, rows),
             shadow_board: Board::new(cols, rows),
@@ -158,19 +152,24 @@ impl Game {
         self.shadow_board_active = !self.shadow_board_active;
     }
 
-    fn compute_next_cell_status(board: &Board, row: usize, col: usize, ruleset: &Rules) -> Cell {
+    fn compute_next_cell_status(
+        board: &Board,
+        row: usize,
+        col: usize,
+        ruleset: &crate::Rules,
+    ) -> Cell {
         let cell = board[row][col];
         let neighbour_count = board.alive_neighbours(row, col);
         match cell {
             Cell::Alive => {
-                if ruleset.survive.contains(&neighbour_count) {
+                if ruleset.get_surviverule().contains(&neighbour_count) {
                     Cell::Alive
                 } else {
                     Cell::Dead
                 }
             }
             Cell::Dead => {
-                if ruleset.birth.contains(&neighbour_count) {
+                if ruleset.get_birthrule().contains(&neighbour_count) {
                     Cell::Alive
                 } else {
                     Cell::Dead
