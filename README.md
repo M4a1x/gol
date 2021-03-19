@@ -12,9 +12,6 @@ This is mainly a project for me to learn the language and might be useful to oth
 Requirements
 ------------
 
-* `gperftools` for profiling
-* `gnuplot` for benchmark plots with [Criterion.rs](https://github.com/bheisler/criterion.rs)
-
 
 Optimizations/Ideas of the different approaches
 -----------------------------------------------
@@ -42,10 +39,18 @@ About the Game
 * Lots of repeating patterns
 
 
+Patterns
+--------
+Example patterns and interesting objects can be found in the `patterns` subdirectory. I am planning to add any patterns there that I can find. Feel free to point me to missing ones!
+
+Currently includes:
+* `patterns/lifep`: [lifep collection](http://www.ibiblio.org/lifepatterns/lifep.zip) by Alan Hensel, individual authors can be found in the files
+
+
 ToDo
 ----
 
-* Switch from cpuprofiler/gperftools to [criterion](https://github.com/bheisler/criterion.rs) for benchmarking?
+* Switch from to [criterion](https://github.com/bheisler/criterion.rs) for benchmarking?
 * Use one branch with e.g. one folder/module per optimized implementation
 * Possible optimization approaches to implement
   * Change List
