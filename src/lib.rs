@@ -1,10 +1,19 @@
 use parser::Rules;
+use std::env;
+use std::error::Error;
+use std::path::Path;
 
 mod naive;
 mod parser;
 
-pub fn run() {
+pub struct Config {
+    filename: String,
+}
+
+pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
+    let pattern = parser::load_file(Path::new(&config.filename));
     run_naive();
+    Ok(())
 }
 
 fn run_naive() {
@@ -23,5 +32,18 @@ fn run_naive() {
         println!("{}", game);
         game.compute_next_gen();
         thread::sleep(time::Duration::from_millis(100));
+    }
+}
+
+impl Config {
+    pub fn new(mut args: env::Args) -> Result<Config, &'static str> {
+        args.next(); // Executable name
+
+        let filename = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a file name"),
+        };
+
+        Ok(Config { filename })
     }
 }
