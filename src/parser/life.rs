@@ -161,7 +161,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn parse_life_106_gosper_glider_gun() {
+    fn parse_life_106_glider() {
         let input = "#Life 1.06
 0 0
 0 1
@@ -182,6 +182,42 @@ mod tests {
                 author: None,
                 description: None,
                 ruleset: None,
+                wrap_edges: false,
+            },
+            size: Size {
+                height: 0,
+                width: 0,
+            },
+        };
+
+        assert_eq!(parse(input).unwrap(), output);
+    }
+
+    #[test]
+    fn parse_life_105_glider() {
+        let input = "#Life 1.05
+#D This is a glider.
+#C      It's an easy pattern.
+#O John Doe
+#N
+#P 0 0 
+***
+
+*..
+.*."
+        .as_bytes();
+        let output = Pattern {
+            alive_list: vec![
+                Cell::new_alive(0, 0),
+                Cell::new_alive(0, 1),
+                Cell::new_alive(0, 2),
+                Cell::new_alive(1, 0),
+                Cell::new_alive(2, 1),
+            ],
+            config: PatternConfig {
+                author: Some(String::from("John Doe")),
+                description: Some(String::from("This is a glider.\nIt's an easy pattern.")),
+                ruleset: Some(Rules::default()),
                 wrap_edges: false,
             },
             size: Size {
