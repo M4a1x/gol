@@ -38,6 +38,24 @@
             },
             "args": [],
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'gol'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib=gol",
+                    "--package=gol"
+                ],
+                "filter": {
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
         }
     ]
 }

@@ -7,7 +7,7 @@
             "type": "cargo",
             "label": "cargo run",
             "command": "cargo",
-            "group":"build",
+            "group": "build",
             "args": [
                 "run"
             ],
