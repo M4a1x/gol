@@ -70,4 +70,5 @@ ToDo
 * [Example Patterns (all!?) & JS Hashlife Implementation](https://github.com/copy/life)
 * [Comprehensive Collection & Explanations, conwaylife.com](https://conwaylife.com/)
 * Read in of [.lif/.life files among others](http://www.mirekw.com/ca/ca_files_formats.html)
-* Output via crossterm
+* Output via tui+crossterm
+* CLI parsing with clap
