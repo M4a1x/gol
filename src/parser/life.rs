@@ -2,7 +2,8 @@ use std::io::{self, BufRead, BufReader, Read};
 use std::iter::Peekable;
 use std::str::FromStr;
 
-use crate::parser::{Cell, CellStatus, ParseError, Pattern, PatternConfig, Point, Rules, Size};
+use crate::parser::{ParseError, Pattern, PatternConfig, Rules};
+use crate::util::{Cell, CellStatus, Point, Size};
 
 pub fn parse(input: impl Read) -> Result<Pattern, ParseError> {
     let buf_reader = BufReader::new(input);
@@ -15,6 +16,7 @@ pub fn parse(input: impl Read) -> Result<Pattern, ParseError> {
                 false
             }
         })
+        // This doesn't seem to be working as expected (it's not trimming spaces on all lines)
         .map(|l| {
             if let Ok(line) = l.as_ref() {
                 Ok(line.trim().to_owned())

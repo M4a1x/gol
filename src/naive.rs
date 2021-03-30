@@ -1,4 +1,4 @@
-#[derive(Copy, Clone, Debug)]
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub enum Cell {
     Dead = 0,
     Alive = 1,
@@ -118,6 +118,28 @@ impl Game {
             shadow_board_active: false,
             ruleset,
         }
+    }
+
+    pub fn get_alive_cells(&self) -> Vec<(usize, usize)> {
+        let board = self.get_active_board();
+
+        let mut result = Vec::new();
+        for row in 0..board.rows {
+            for col in 0..board.cols {
+                if board[row][col] == Cell::Alive {
+                    result.push((col, row));
+                }
+            }
+        }
+        result
+    }
+
+    pub fn get_width(&self) -> usize {
+        self.main_board.cols
+    }
+
+    pub fn get_height(&self) -> usize {
+        self.main_board.rows
     }
 
     fn get_active_board(&self) -> &Board {

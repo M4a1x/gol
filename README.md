@@ -11,6 +11,10 @@ This is mainly a project for me to learn the language and might be useful to oth
 
 Requirements
 ------------
+## Graphics
+### Windows
+To be able to see the game run in "high resolution" (default) you need a font that supports braille characters. The default `Consolas` does *not* provide this. Change your settings by clicking on the icon in the top left. I recommend `MS Gothic`, but `NSimSun` or `MS Mincho` should work as well. This applies to `WSL`, `Powershell` and `CMD`.
+
 
 
 Optimizations/Ideas of the different approaches

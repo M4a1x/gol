@@ -5,6 +5,8 @@ authors = ["Max Stabel <M4a1x@users.noreply.github.com>"]
 edition = "2018"
 
 [dependencies]
+crossterm = "0.18"
+tui = { path = "../tui-rs", version = "0.14", default-features = false, features = ['crossterm'] }
 
 
 [profile.release]

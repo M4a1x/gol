@@ -5,14 +5,20 @@ use std::path::Path;
 
 mod naive;
 mod parser;
+mod render;
+mod traits;
+mod util;
 
 pub struct Config {
-    filename: String,
+    filename: Option<String>,
 }
 
 pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
-    let pattern = parser::load_file(Path::new(&config.filename));
-    run_naive();
+    if let Some(filename) = &config.filename {
+        let pattern = parser::load_file(Path::new(filename))?;
+    }
+    render::run()?;
+    //run_naive();
     Ok(())
 }
 
@@ -36,14 +42,16 @@ fn run_naive() {
 }
 
 impl Config {
-    pub fn new(mut args: env::Args) -> Result<Config, &'static str> {
+    pub fn new(mut args: env::Args) -> Config {
         args.next(); // Executable name
 
         let filename = match args.next() {
             Some(arg) => arg,
-            None => return Err("Didn't get a file name"),
+            None => return Config { filename: None },
         };
 
-        Ok(Config { filename })
+        Config {
+            filename: Some(filename),
+        }
     }
 }

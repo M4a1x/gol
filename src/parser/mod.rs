@@ -6,57 +6,16 @@ pub mod error;
 pub mod life;
 pub mod rules;
 
+use crate::util::Cell;
+use crate::util::Size;
 pub use error::ParseError;
 pub use rules::Rules;
-
-#[derive(Clone, Copy, Debug, PartialEq, Eq)]
-pub struct Cell {
-    status: CellStatus,
-    pos: Point,
-}
-
-impl Cell {
-    pub fn new(pos: Point, status: CellStatus) -> Self {
-        Cell { pos, status }
-    }
-
-    pub fn new_alive(x: u32, y: u32) -> Self {
-        Cell {
-            pos: Point::new(x, y),
-            status: CellStatus::Alive,
-        }
-    }
-}
-
-#[derive(Clone, Copy, Debug, PartialEq, Eq)]
-pub enum CellStatus {
-    Dead = 0,
-    Alive = 1,
-}
-
-#[derive(Clone, Copy, Debug, PartialEq, Eq, Default)]
-pub struct Point {
-    pub x: u32,
-    pub y: u32,
-}
-
-impl Point {
-    pub fn new(x: u32, y: u32) -> Self {
-        Point { x, y }
-    }
-}
 
 #[derive(Debug, PartialEq)]
 pub struct Pattern {
     size: Size,
     alive_list: Vec<Cell>,
     config: PatternConfig,
-}
-
-#[derive(Clone, Copy, Debug, PartialEq)]
-pub struct Size {
-    pub width: usize,
-    pub height: usize,
 }
 
 #[derive(Debug, PartialEq)]
