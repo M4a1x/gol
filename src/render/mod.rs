@@ -14,7 +14,9 @@ use tui::widgets::canvas::{Canvas, Points};
 use tui::widgets::{Block, BorderType, Borders, Paragraph};
 use tui::{self, Frame};
 
-use crate::naive::{Cell, Game};
+// TODO: Change NaiveGame to Game trait
+use crate::game::naive::NaiveGame;
+use crate::game::Game;
 use crate::Rules;
 
 pub fn run() -> Result<(), Box<dyn Error>> {
@@ -64,12 +66,12 @@ impl Term {
         Ok(Term { terminal })
     }
 
-    fn draw(&mut self, game: &Game) -> Result<(), Box<dyn Error>> {
+    fn draw(&mut self, game: &NaiveGame) -> Result<(), Box<dyn Error>> {
         self.terminal.draw(|frame| Term::draw_ui(frame, &game))?;
         Ok(())
     }
 
-    fn draw_ui(frame: &mut Frame<impl tui::backend::Backend>, game: &Game) {
+    fn draw_ui(frame: &mut Frame<impl tui::backend::Backend>, game: &NaiveGame) {
         let size = frame.size();
         let chunks = Layout::default()
             .direction(Direction::Vertical)
@@ -95,10 +97,14 @@ impl Term {
             );
         //let inner_area = canvas_block.inner(chunks[1]);
         //let (width, height) = (inner_area.width as f64, inner_area.height as f64);
-        let live_cells = game.get_alive_cells();
-        let live_cells = live_cells
-            .iter()
-            .map(|(x, y)| (*x as f64, *y as f64))
+        // let live_cells = game.get_alive_cells();
+        // let live_cells = live_cells
+        //     .iter()
+        //     .map(|(x, y)| (*x as f64, *y as f64))
+        //     .collect::<Vec<(f64, f64)>>();
+        let live_cells = game
+            .alive_cells()
+            .map(|cell| (cell.pos.x as f64, cell.pos.y as f64))
             .collect::<Vec<(f64, f64)>>();
         let game_world = Canvas::default()
             //.marker(symbols::Marker::Dot)
@@ -169,22 +175,23 @@ fn setup_input_handler() -> Receiver<Event<KeyEvent>> {
     rx
 }
 
-// TODO: Maybe move into naive renderer? Make interface/trait so different Game versions can be launched
-fn setup_game() -> Game {
-    let mut game = Game::new(10, 10, Rules::default());
+// TODO: move into naive renderer? Make interface/trait so different Game versions can be launched
+// No game specific code in render, remove this example
+fn setup_game() -> NaiveGame {
+    let mut game = NaiveGame::new(10, 10, Rules::default());
 
-    game[0][1] = Cell::Alive;
-    game[1][2] = Cell::Alive;
-    game[2][0] = Cell::Alive;
-    game[2][1] = Cell::Alive;
-    game[2][2] = Cell::Alive;
+    game[0][1].status = crate::game::CellStatus::Alive;
+    game[1][2].status = crate::game::CellStatus::Alive;
+    game[2][0].status = crate::game::CellStatus::Alive;
+    game[2][1].status = crate::game::CellStatus::Alive;
+    game[2][2].status = crate::game::CellStatus::Alive;
 
     game
 }
 
 fn handle_input(
     input_receiver: &Receiver<Event<KeyEvent>>,
-    game: &mut Game,
+    game: &mut NaiveGame,
 ) -> Result<bool, Box<dyn Error>> {
     // Blocks until Event is available
     match input_receiver.recv()? {

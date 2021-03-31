@@ -1,5 +1,6 @@
-use super::ParseError;
 use std::str::FromStr;
+
+use crate::parse::ParseError;
 
 #[derive(Clone, Debug)]
 pub struct Rules {

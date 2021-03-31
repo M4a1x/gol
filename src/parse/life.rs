@@ -2,8 +2,8 @@ use std::io::{self, BufRead, BufReader, Read};
 use std::iter::Peekable;
 use std::str::FromStr;
 
-use crate::parser::{ParseError, Pattern, PatternConfig, Rules};
-use crate::util::{Cell, CellStatus, Point, Size};
+use crate::parse::{Cell, Size};
+use crate::parse::{ParseError, Pattern, PatternConfig, Rules};
 
 pub fn parse(input: impl Read) -> Result<Pattern, ParseError> {
     let buf_reader = BufReader::new(input);
