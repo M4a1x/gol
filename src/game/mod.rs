@@ -11,6 +11,12 @@ pub trait Game<'a> {
     fn alive_cells(&'a self) -> Self::Iter;
 }
 
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub struct Size {
+    pub width: usize,
+    pub height: usize,
+}
+
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Default)]
 pub struct Point {
     pub x: usize,

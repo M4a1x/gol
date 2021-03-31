@@ -10,7 +10,7 @@ pub enum ParseError {
     InvalidFormat(String),
     UnknownFileExtension(String),
     IoError(io::Error),
-    Empty,
+    EmptyFile,
 }
 
 impl PartialEq for ParseError {
@@ -26,7 +26,7 @@ impl fmt::Display for ParseError {
             Self::InvalidFormat(line) => write!(f, "Invalid format: {}", line),
             Self::UnknownFileExtension(format) => write!(f, "Unknown file format: {}", format),
             Self::IoError(io_error) => write!(f, "IO Error occured: {}", io_error),
-            Self::Empty => write!(f, "Empty string"),
+            Self::EmptyFile => write!(f, "Empty file"),
         }
     }
 }

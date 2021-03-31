@@ -16,16 +16,17 @@ use tui::{self, Frame};
 
 // TODO: Change NaiveGame to Game trait
 use crate::game::naive::NaiveGame;
-use crate::game::Game;
+use crate::game::{self, Game, Size};
+use crate::parse::{self, Pattern};
 use crate::Rules;
 
-pub fn run() -> Result<(), Box<dyn Error>> {
+pub fn run(start_pattern: Pattern, game_size: Size) -> Result<(), Box<dyn Error>> {
     // TODO: This setup (aka. input handler sending ticks) is probably bad for
     // GOL, since the game itself should be able to handle 100fps (10ms ticks),
     // while input can be much slower, but maybe it works?
     let mut term = Term::new()?;
     let input_receiver = setup_input_handler();
-    let mut game = setup_game();
+    let mut game = setup_game(start_pattern, game_size);
     loop {
         term.draw(&game)?;
         let stop_running = handle_input(&input_receiver, &mut game)?;
@@ -175,16 +176,26 @@ fn setup_input_handler() -> Receiver<Event<KeyEvent>> {
     rx
 }
 
-// TODO: move into naive renderer? Make interface/trait so different Game versions can be launched
-// No game specific code in render, remove this example
-fn setup_game() -> NaiveGame {
-    let mut game = NaiveGame::new(10, 10, Rules::default());
+fn setup_game(start_pattern: Pattern, game_size: Size) -> NaiveGame {
+    if game_size.width < start_pattern.size.width || game_size.height < start_pattern.size.height {
+        // TODO: Better error handling
+        panic!("Size of pattern bigger than the size of the game!");
+    }
 
-    game[0][1].status = crate::game::CellStatus::Alive;
-    game[1][2].status = crate::game::CellStatus::Alive;
-    game[2][0].status = crate::game::CellStatus::Alive;
-    game[2][1].status = crate::game::CellStatus::Alive;
-    game[2][2].status = crate::game::CellStatus::Alive;
+    let ruleset = if let Some(rules) = start_pattern.config.ruleset {
+        rules
+    } else {
+        Rules::default()
+    };
+
+    let mut game = NaiveGame::new(game_size.width, game_size.height, ruleset);
+
+    for cell in start_pattern.alive_list {
+        game[cell.pos.y][cell.pos.x].status = match cell.status {
+            parse::CellStatus::Alive => game::CellStatus::Alive,
+            parse::CellStatus::Dead => game::CellStatus::Dead,
+        };
+    }
 
     game
 }

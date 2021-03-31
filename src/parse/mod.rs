@@ -35,17 +35,17 @@ pub trait Parser {
 
 #[derive(Debug, PartialEq)]
 pub struct Pattern {
-    size: Size,
-    alive_list: Vec<Cell>,
-    config: PatternConfig,
+    pub size: Size,
+    pub alive_list: Vec<Cell>,
+    pub config: PatternConfig,
 }
 
 #[derive(Debug, PartialEq)]
 pub struct PatternConfig {
-    ruleset: Option<Rules>,
-    description: Option<String>,
-    author: Option<String>,
-    wrap_edges: bool,
+    pub ruleset: Option<Rules>,
+    pub description: Option<String>,
+    pub author: Option<String>,
+    pub wrap_edges: bool,
 }
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
@@ -56,20 +56,20 @@ pub struct Size {
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Default)]
 pub struct Point {
-    pub x: u32,
-    pub y: u32,
+    pub x: usize,
+    pub y: usize,
 }
 
 impl Point {
-    pub fn new(x: u32, y: u32) -> Self {
+    pub fn new(x: usize, y: usize) -> Self {
         Point { x, y }
     }
 }
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub struct Cell {
-    status: CellStatus,
-    pos: Point,
+    pub status: CellStatus,
+    pub pos: Point,
 }
 
 impl Cell {
@@ -77,7 +77,7 @@ impl Cell {
         Cell { pos, status }
     }
 
-    pub fn new_alive(x: u32, y: u32) -> Self {
+    pub fn new_alive(x: usize, y: usize) -> Self {
         Cell {
             pos: Point::new(x, y),
             status: CellStatus::Alive,

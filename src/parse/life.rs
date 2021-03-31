@@ -29,7 +29,7 @@ pub fn parse(input: impl Read) -> Result<Pattern, ParseError> {
     let version = parse_version(&mut content_line_iter)?;
     let config = parse_header(&mut content_line_iter)?;
 
-    let alive_list = match version.as_ref() {
+    let mut alive_list = match version.as_ref() {
         "1.05" => parse_life_105_cell_blocks(&mut content_line_iter)?,
         "1.06" => parse_life_106_list(&mut content_line_iter)?,
         _ => {
@@ -39,11 +39,45 @@ pub fn parse(input: impl Read) -> Result<Pattern, ParseError> {
         }
     };
 
+    if alive_list.is_empty() {
+        return Err(ParseError::EmptyFile);
+    }
+
     // TODO: Calculate size from alive_list and adjust list to center on top left.
-    let size = Size {
-        width: 0,
-        height: 0,
-    };
+    let max_x = alive_list
+        .iter()
+        .max_by_key(|cell| cell.pos.x)
+        .unwrap()
+        .pos
+        .x;
+    let min_x = alive_list
+        .iter()
+        .min_by_key(|cell| cell.pos.x)
+        .unwrap()
+        .pos
+        .x;
+    let max_y = alive_list
+        .iter()
+        .max_by_key(|cell| cell.pos.y)
+        .unwrap()
+        .pos
+        .y;
+    let min_y = alive_list
+        .iter()
+        .min_by_key(|cell| cell.pos.y)
+        .unwrap()
+        .pos
+        .y;
+
+    let width = max_x - min_x + 1;
+    let height = max_y - min_y + 1;
+
+    let size = Size { width, height };
+
+    for cell in &mut alive_list {
+        cell.pos.x -= min_x;
+        cell.pos.y -= min_y;
+    }
 
     Ok(Pattern {
         size,
@@ -65,7 +99,7 @@ fn parse_version(
             Ok(line[6..].to_owned())
         }
     } else {
-        Err(ParseError::Empty)
+        Err(ParseError::EmptyFile)
     }
 }
 
@@ -134,7 +168,7 @@ fn parse_life_106_list(
         .map(|line| {
             let line = line?;
             let mut coords = line.split(' ');
-            let x: u32 = match coords.next() {
+            let x: usize = match coords.next() {
                 Some(x) => x.parse()?,
                 None => {
                     return Err(ParseError::InvalidFormat(format!(
@@ -143,7 +177,7 @@ fn parse_life_106_list(
                     )))
                 }
             };
-            let y: u32 = match coords.next() {
+            let y: usize = match coords.next() {
                 Some(y) => y.parse()?,
                 None => {
                     return Err(ParseError::InvalidFormat(format!(
