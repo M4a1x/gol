@@ -1,0 +1,17 @@
+#C p1968 gun, doubled p246 -> blocker -> p8 glider-Herschel -> H doubler,
+#C DE 2/22/03
+x = 85, y = 73, rule = B3/S23
+34bo15bo$34b3o11b3o$32boo3bo9bo3boo$31boboboobo7boboobobo$32bobobobo7b
+obobobo$36boboo5boobo$33bobbo11bobbo$34bobo11bobo$33booboo9booboo$$oo
+81boo$bo81bo$bobo38bo38bobo$bboo37bobo37boo$41bobo$13bo4boo19bobobobo
+22bo$11b4o3boboo17boo3boo21b3o$10b3obbo50bob3o$10bob4o49boo4bo$11bobbo
+3bobbo44bo4boo$11booboobboo46boboobo$14bo51bo$12bo3bo50b3o$17bo11boo
+23boo12bo$13bo3bo11boo23boo$14b3o$42boo$42boo$78boo$77bobbo$5b4o68bo$
+4bo4bo35boo30bo$3bobo3bo31b4o4boo26bobo3bo$bbobo3bo32b3oboobboo17bo9bo
+bo3bo$bbo43bo21b3o8bo4bo$bbo15boo5boo44bo8b4o$bbobbo13bo5boo43boo$3boo
+14bobo36boo$20boo13bo7bo15bo$24boo9boo4b3o15bobo$23bobo9boo3bo19boo$
+24bo11bo3boo$19b3o$22bo15bo$18bo3bo14bobo$17bobobbo14bobo$15bobbobo17b
+o$15bo3bo20boo$15bo24bobo28boo$16b3o21bo8boo20boo$49boo$37boo$36bobbo$
+31boo4boo$30bobo$30bo$29boo$39boo$39bo29boo$40b3o27bo$42bo11boo11b3o$
+50boobboo11bo$49bobo$46bo3bo$46boo36bo$45boobo3boo28bobo$44bobb3obbo
+30boo$43bobobo5b3o$42bobobo8bo$40b3obbo$41boboo$42boo$43bo!

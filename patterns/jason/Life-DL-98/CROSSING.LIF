@@ -1,0 +1,30 @@
+x = 200, y = 147
+112boo$112bobbobo$114boob3o$120bo$114boob4obbo$114boobo3b3o$120bo60bo$
+92boo26boo50bo7bobo$93bo50bo27b3o6bo$93bobo37boo7b3o30bo$94boo38bo6bo
+32boo$134bobo4boo$135boo3$88boboo$88boobo75boo25boo$167boo25bo$97boo
+93bobo$97boo93boo3$179boo$170boo6bobo$109boo3boo55bo6bo$110bo3bo55bo6b
+oo$107b3o5b3o52boo$107bo9bo$105bobo39boo$105boo40bo$141boobo3b3o$141b
+oob4obbo30boo$147bo32bobo$87bo49boobboob3o33bo$87b3o39boo6bo4bobo34boo
+$90bo39bo7b4o$89boo36b3o$127bo12boo$140boo5$84boo$85bo$85bobo$86boo3$
+100boo87boo$100bobo14bo71boo$102bo12b3o24bo37boo$102b3o9bo27b3o35bobbo
+$105bo8boo29bo12bo17boo4boo$104boo38boo12b3o7boo7bo20boo$82boboo75bo6b
+o8bobo18bo$30bo43boo6boobo39bo34boo4bobo9boo16bobo$30b3o42bo49b3o38boo
+28boo$33bo28bo11bo16boo35bo$32boo28b3o9boo15boo34boo11boo$65bo74boo$
+52boo10boo$53bo$7boo44bobo$7boo45boo$77boo$77boo$boo$boo187boo$5boo
+183boobboo$5boo187bobo$54bo141bo$54bobo139boo$54b3o97boo$oo54bo11boo
+49boo34bo$oo66bo44boo5bo31b3o3boboo$69b3o41bobob3o20boo10bobb4oboo$71b
+o13boo19boo7bobo22bo14bo$85boo19boo7boo24b3o12b3oboobboo$47boo94bo14bo
+bo4bo6boo$41boo5bo112b4o7bo$41bobob3o125b3o$34boo7bobo55boo58boo12bo$
+34boo7boo56bo59boo$99bobo$99boo3$82boo$82boo15boo$20boo77bobo$20bobo
+78bo$22bo78boo$22boo3$82boo$82bo$80bobo$80boo$12boo$12boo$$3boobo90boo
+bo$3boboo90boboo$$90boo$23boo65boo$23bo$21bobo$21boo3$7boo46bo$6bobo
+46b3o22boo$6bo51bo22bo$5boo50boo22bobo$70bo11boo$68b3o$67bo$67boo3$10b
+oo29bo11boo26bo$11bo27b3o11boo24b3o$8b3o27bo39bo$8bo29boo38boo6$102boo
+$48boo52boo$48boo26boo$76boo$$97boo$11boo84boo$11boo88boo$17boo32boo
+48boo$17boo33bo$51bo$51boo42boo$15boo78boo$15boo5boo$22boo!
+Herschel crossing
+
+Can two Herschel tracks cross each other? Yes, it's possible. Here, a Herschel 
+circulates in a 1945-step self-intersecting Herschel loop.
+
+Dieter Leithner, 31 May 1997, improved 4 Jun 1998

@@ -1,0 +1,56 @@
+x = 169, y = 90
+128bo$126bobo$124bo5bobo$122bobo7bobo$88bo31bo13bo$86bobo29bobo13bo$
+84bo5bobo23bo13bobo$82bobo7bo21bobo13bo$80bo13bobo15bo13bobo$78bobo15b
+o15bo13bo$76bo21bobo11bobo7bobo$74bobo12bo10bo13bobo5bo$72bo14bobo12bo
+bo13bobo$70bobo12bo5bobo10bo13bo$68bo14bobo7bobo10bobo$66bobo12bo13bo
+12bobo$64bo16bo13bo14bo$64bo16bobo7bobo16bo$64bobo16bobo5bo14bobo37bo$
+66bobo18bobo16bo37bobo$56bo13bo16bo14bobo37bo5bobo$54bobo13bobo29bo37b
+obo7bo$52bo5bobo13bo23bobo37bo13bobo$50bobo7bo13bobo19bobo37bobo15bo$
+48bo13bobo13bo17bo37bo21bobo$48bo15bo13bobo15bo35bobo12bo10bo$48bobo
+15bobo13bo15bobo29bo14bobo12bobo$50bobo15bo13bobo15bo27bobo12bo5bobo
+10bo$54bo15bobo13bo15bobo21bo14bobo7bobo10bobo$54bobo15bo13bobo15bobo
+17bobo12bo13bo12bobo$58bo15bobo13bo15bo15bo16bo13bo14bo$58bobo15bo13bo
+bo13bo15bo16bobo7bobo16bo$32bo29bo15bobo13bo7bobo17bobo16bobo5bo14bobo
+$30bobo29bobo15bo13bobo5bo21bobo18bobo16bo$28bo5bobo29bo15bobo13bobo
+13bo13bo16bo14bobo$26bobo7bo29bobo15bo13bo13bobo13bobo29bo$24bo13bobo
+29bo15bobo21bo5bobo13bo23bobo$24bo15bo29bobo15bobo17bobo7bo13bobo19bob
+o$24bobo15bobo29bo15bo15bo13bobo13bo17bo$26bobo15bo29bobo13bo13bobo15b
+o13bobo15bo$16bo13bo15bobo29bo7bobo13bo21bobo13bo15bobo$14bobo13bobo
+15bo29bobo5bo13bobo23bo13bobo15bo$12bo5bobo13bo15bobo15bo13bobo13bo15b
+o13bobo13bo15bobo$10bobo7bobo11bobo15bo13bobo13bo13bobo13bobo15bo13bob
+o15bobo$8bo13bo15bo15bobo7bo5bobo21bo15bo5bobo13bobo13bo15bo$6bobo13bo
+15bobo15bo5bobo7bobo17bobo13bobo7bo15bo13bobo13bo$4bo13bobo21bo15bobo
+13bo15bo15bo13bobo13bobo13bo7bobo$bbobo11bobo23bobo15bo13bo15bo15bo15b
+o15bo13bobo5bo$o15bo15bo13bo23bobo17bobo13bobo15bobo13bobo13bobo$o15bo
+13bobo13bobo21bo21bobo13bobo15bo15bo13bo$obo15bobo7bo5bobo13bo15bobo
+27bo15bo15bobo13bobo$bbobo15bo5bobo7bobo11bobo13bo29bobo13bobo15bobo
+13bobo$6bo15bobo13bo15bo7bobo35bo15bo15bo15bo$6bobo15bo13bo15bobo5bo
+37bobo13bobo13bo15bo$10bo23bobo21bobo13bo29bo15bo7bobo13bobo$10bobo19b
+obo23bo13bobo29bobo13bobo5bo15bo$14bo17bo37bo5bobo29bo15bobo13bobo$14b
+obo15bo35bobo7bo29bobo13bo15bo$18bo15bobo29bo13bobo29bo23bobo$18bobo
+15bo29bo15bo29bobo21bo$22bo15bobo25bobo15bobo29bo15bobo$22bobo15bobo
+25bobo15bo29bobo13bo$26bo15bo15bo13bo15bobo29bo7bobo$26bobo13bo13bobo
+13bobo15bo29bobo5bo$30bo7bobo13bo5bobo13bo15bobo15bo13bobo$30bobo5bo
+13bobo7bobo11bobo15bo13bobo13bo$34bobo13bo13bo15bo15bobo7bo5bobo$34bo
+13bobo13bo15bobo15bo5bobo7bobo$46bo13bobo21bo15bobo13bo$44bobo11bobo
+23bobo15bo13bo$42bo15bo15bo13bo23bobo$42bo15bo13bobo13bobo21bo$42bobo
+15bobo7bo5bobo13bo15bobo$44bobo15bo5bobo7bobo11bobo13bo$48bo15bobo13bo
+15bo7bobo$48bobo15bo13bo15bobo5bo$52bo23bobo21bobo$52bobo19bobo23bo$
+56bo17bo$56bobo15bo$60bo15bobo$60bobo15bo$64bo15bobo$64bobo15bobo$68bo
+15bo$68bobo13bo$72bo7bobo$72bobo5bo$76bobo$76bo!
+Self-commenting oscillator
+
+Note that the term "flip-flop" is in use for different Life objects. In his Life Lexicon 
+Stephen Silver writes:
+
+"flip-flop: Any p2 {oscillator}. However, the term is also used in two more specific 
+(and mutually incompatible) senses: (a) any p2 oscillator whose two phases are 
+mirror images of one another, and (b) any p2 oscillator in which all {rotor} cells die 
+from {underpopulation}. In the latter sense it contrasts with {on-off}. The term has 
+also been used even more specifically for the 12-cell flip-flop shown under 
+{phoenix}."
+
+The pattern shown here is a flip-flop in the broad sense of the term, i.e. just a p2 
+oscillator.
+
+Dieter Leithner, 1 May 1993

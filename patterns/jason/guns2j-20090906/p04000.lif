@@ -1,0 +1,25 @@
+#C Added two of Dieter Leithner's p5 pulse dividers to an existing gun
+#C Unusual because the pulse divider is INSIDE the herschel loop.
+#C Scot Ellison   December 2002
+x = 118, y = 116, rule = B3/S23
+105boo$101boobbo$100bobbobo$99boboboboo$97b3obobobo$96bo4b3o3bo$95bob
+4obob3obo$96bo11bo$97b3obobob3o$99booboboo$116boo$116bo$114bobo$114boo
+$104boo$104boo4$93boo$93boo$$109boo$109bobo$111bo$84boo25boo$65bo14bob
+obbo$63b3o12b3oboo$18bo20bo22bo14bo$17bobo7bo11b3o20boo10bobb4oboo$18b
+o6b3o14bo31b3o3boboo$7bo16bo16boo34bo$7b3o14boo50boo26boo$10bo93bo$9b
+oo91bobo$48bobbo50boo$48bo3bo$47bo4bo64bo$4boo25boo14bo4bo62bobo$5bo
+25boo14bo3bo64boo$5bobo40bobo55boobo$6boo98boboo$$99boo$19boo78boo$19b
+obo6boo32boo$21bo6bo20boo11boo$21boo6bo20bo$28boo17b3o$47bo34boo3boo$
+83bo3bo$66boo12b3o5b3o$67bo12bo9bo$17boo45b3o23bobo$17bobo44bo26boo$
+19bo$19boo3$109boo$109bo$107bobo$107boo$26boo5bo$26bo6b3o$oo5boo15bobo
+9bo$o6boo15boo9boo$bo$oo46bo$46b3o$45bo$45boo$29boo82boo$28bobbo81bo$
+23bobbobbobo57boo15boo6bo$23b5oboboo4boo24bo24bobo15boo5boo$29boobbo3b
+oo23b3o23bo$25boboo3b3o26bob3o21boo$6boo16boboboobb3o25bo3bo$5bobo16bo
+bboo3b3o24bo3bo$5bo19bo3boobbo24b3obo$4boo20booboboo26b3o$27bobobo28bo
+$27bobobo24bo$28bobo24bobo36boo$29bo25boo38bo$22boo18boo15boo34bobo$
+22bobo17boo15bobo34boo$24bo9bo19boo5bo$24b3o5b3o19boo5boo$27bo3bo$26b
+oo3boo34bo$65b3o17boo$64bo20bo6boo$51boo11boo20bo6bo$51boo32boo6bobo$
+14boo78boo$14boo$$5boobo98boo$5boboo98bobo$82boo25bo$82boo25boo3$11boo
+$10bobo91boo$10bo93bo$9boo26boo50boo14b3o$37bo34boo16bo16bo$31boobo3b
+3o31bo14b3o6bo$31boob4obbo10boo20b3o11bo7bobo$37bo14bo22bo20bo$31boob
+3o12b3o$29bobbobo14bo$29boo!

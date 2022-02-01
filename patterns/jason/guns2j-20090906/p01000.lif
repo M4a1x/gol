@@ -1,0 +1,17 @@
+#C p1000 gun found with modified Hersrch, using new Fx78p8 component.
+#C Dave Greene, 6 October 2006
+x = 154, y = 63, rule = B3/S23
+124boo$37bo83boobbo$119b3oboo$35bob3o78bo$37boobo8bo65bobb4oboo$37bob
+oo6b3o65b3o3boboo$38b3obo3bo71bo$46boo69boo26boo$40bo25boo77bo$30bo13b
+o21bo27boo47bobo$30b3o10bobo18bobo28bo47boo$33bo10boobboo14boo16bo11bo
+$20boo10boo14boo32b3o9boo$21bo63bo$21bobo48boo10boo$7boo13boo49bo73boo
+bo$7boo64bobo71boboo$74boo$97boo41boo$boo94boo41boo$boo$5boo$5boo$129b
+oo$123boo3bobbo$36boo86bo3bobo$oo34bo26boo42boo12b3o5bo$oo35b3o10boo
+11boo23boo18bo12bo$39bo11bo36bo16b3o$48b3o38b3o13bo$48bo42bo56bo$146b
+3o$67boo76bo$68bo76boo$65b3o$35bo29bo9bo$33b3o37b3o$32bo39bo$7boo23boo
+38boo40bo9bo$8bo57boo46b3o5b3o$5b3o44bo15boo32boo13bo3bo$5bo44b3o14b4o
+31bo13boo3boo$49bo17bobbo32bo$36boo11boo16b3o10boo20boo$36boo30boo10b
+oo70boo$152boo4$99boo46boo$5boo21boo41boo26boo46boo$5boo21bobo40boo78b
+oo$11boo17bo120boo$11boo17boo$66b3o$66bobo76boo$9boo57bo61boo13boo$9b
+oo5boo48b3o41bo6boo11bobo$16boo39boo49b3o6boo13bo$35boo20bo5boo42bo24b
+oo$34bobo21b3obobo29bo12boo$34bo25bobo7boo23bo$33boo26boo7boo21b3o!

@@ -1,0 +1,21 @@
+#C p1408 gun, p352 with two p22 doublers, DE 2/24/03
+x = 112, y = 64, rule = B3/S23
+78bo$$9boo10boo59bo16boo$8bobbo8bobbo20bo17boo17boo16bo$8b3obb6obb3o
+19b3o16bo17b4o13bobo$11boo6boo21bo17bobo16boo15b3o$10bo10bo23bobo12boo
+16b3obboo5boobb3o$10boobo4boboo23bobbo4b3o22b3obboo5boobb3o$15boo28b3o
+4bobbo20b3o15boo$39boo12bobo16boobobo13b4o15boo$38bobo17bo14bobo16boo
+16bo$38bo16b3o15bobo16bo15bobo$37boo17bo14boboboo31boo$15bo55boo25boo$
+14b3o81boo$14b3o12boo$29bo30boo$15bo11bobo30boo$7bob3obb3obb3obo3boo
+58boo$oo4bobb3obb3obb3obbo25boo35boo$oo3boobboo9boobboo5boo7bo3boo4boo
+$6boo3bo7bo3boo6boo5b3o3boo57boo$7bo15bo13bo6boo20boo35bobo$12bo5bo18b
+oo6bo20bobo36bo$12bo5bo13boo10bobo21bo36boo$7bo15bo7bo3bo7boobo21boo$
+6boo3bo7bo3boo7boboo$oo3boobboo9boobboo10bo$oo4bobb3obb3obb3obbo10bobo
+6boo$7bob3obb3obb3obo11boboo5boo$15bo19bobo$36boo$14b3o$14b3o$15bo39b
+oo$55bo$30boo21bobo55bo$30bo22boo54bobo$31b3o15bo60boo$15boo16bo3boo8b
+obo36boo$10boobo4boboo15boo9boo36bo$10bo10bo25boo35bobo$11boo6boo26boo
+35boo$8b3obb6obb3o23boo$8bobbo8bobbo44boo$9boo10boo45boo$58boo$24boo6b
+3o3bobo17bobo$25bo6bobobbo22bo$25bobo6b3o5boo16boo17boo$26boo5bo6bobbo
+35boo$32bobo7boo45boo$31boo7bobo12boo6b3o3bobo17bobo$31bobbo6bo5boo7bo
+6bobobbo22bo$31boo5b3o6bobo6bobo6b3o5boo16boo$37bobbobo6bo7boo5bo6bobb
+o$34bobo3b3o6boo12bobo7boo$62boo7bobo$62bobbo6bo5boo$62boo5b3o6bobo$
+68bobbobo6bo$65bobo3b3o6boo$$61bo!

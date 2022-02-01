@@ -1,0 +1,19 @@
+x = 242, y = 63
+187b6o$186bo5bo$192bo$186bo4bo6boo$188boo7b4o$197booboo$199boo$166b4o13b
+oo7bobo$166boobbo12boo6bobboo$164boobbobbo11boo7bobo$163bobbo3boo7bo6bo
+12boo$163bobb3oboo6boo6boo9booboo$163bo3boo8boo8bo9b4o$146bo18b3o10bo4b
+oo13boo$146bo32bo4bo4b4o38boo$149bobbo30bo4b6o33b4oboo$153bo34b4oboo5b3o
+24b6o$149bo3bo38boo34b4o$150b4o46bo37b4o$237bo3bo$232boo7bo$221bo9b4obbo
+bbo$203b3o13boo9bo3boo$155bo64boo9b4obbobbo$153bobo47b6o8bobbo4boo5boo7b
+o$154boo52b3o6bobo4bobbo9bo3bo$210bo8bo5b3o10b4o$208bobo7bobo4boo$208boo
+8bobo$209boo9boo7b6o$173bo36bo17bo5bo$173bobo58bo$173boo53bo4bo$230boo4$
+139bo$21boo22boo22boo22boo22boo21boo3boo56boo$20bobo21bobo21bobo21bobo
+21bobo18booboobboobo53booboo$20boo22boo22boo22boo22boo19b3obo5boo52b4o$
+137boobb3obboo54boo$20boo22boo22boo22boo22boo24boo$20boo22boo22boo22boo
+22boo$176b6o$175bo5bo$181bo$3boo147boo8boo11bo4bo$3oboo146b4o4boobbo6bob
+o3boo5bobbo$5o151bo3bobb3o5bobbo13bo$b3o153bobbo4bo5bobo10bo3bo$149bo5bo
+boobb5o19b4o$148boobboobobo5boo11boobb3o$136boo14boo3bo18boobb3o$134bo4b
+o12bobbo20boobb3o$140bo11bobbo29b4o$134bo5bo12boo21bo7bo3bo$135b6o47bo$
+184bobbo$178boo$174b4oboo$174b6o$175b4o!
+A p48 MWSS rake consisting of three glider rakes making 10-pixel still lifes 
+which are changed by a MWSS to MWSS

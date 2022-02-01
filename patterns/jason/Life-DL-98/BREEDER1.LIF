@@ -1,0 +1,50 @@
+x = 190, y = 119
+46b4o$45b6o$45b4oboo66b6o$49boo66bo5bo$55bobbo64bo$59bo57bo4bo6boo$46b
+o8bo3bo59boo7b4o$45bo5bo4b4o68booboo43b4o$44bo7boo67bobbo5boo43b6o$14b
+o29bobo4b3o58bo8bo3bo49b4oboo$13bo31boo5boo58bo7bo4boo52boo$13b3o13b4o
+12b3o3bo4b4o43bo17bo3bo59bobbo$22boo4boo3bo13bo7bo3bo22bo19bobo16bobbo
+5boo57bo$22b3o3boo4bo4bo19bo20boo19booboo9bobo10booboo44bo7bo3bo$34bo
+4bo8boo5bobbo22boo19bobbo8bobbo10b4o54b4o$16bo14bobbo11bo4bo51bobo9bob
+o11boo46boobb3o$6bo8bobo13bobo18bo51bo15b4o53boobb3o$4bo3bo7b3o27bo5bo
+66b6o35bo16boobb3o$9bo7bobo27b6o66b4oboo12bo19booboo23b4o$4bo4bo113boo
+12bo20booboo10bo11bo3bo$5b5o7bobo117b3o18boobboo7booboo13bo$16b3o141bo
+bo10bo4boo5bobbo$16b3o142bo14bo4bo$88bo93bo$46bo39bobo87bo5bo$44boo41b
+oo88b6o$45boo91b4o$137b6o$137b4oboo12boo$141boo11booboo$102bo44bobbo3b
+4o$101bo49bo3boo$4bo96b3o35bo7bo3bo$5boo141b4o$4boo133boobb3o$14boo9b
+oo49bo62boobb3o$14boo7bo4bo45bobo45bo16boobb3o$29bo45boo23bo19booboo
+23b4o$23bo5bo69bo20booboo10bo11bo3bo$24b6o69b3o18boobboo7booboo13bo$
+122bobo10bo4boo5bobbo$123bo14bo4bo$66bo77bo$65bo72bo5bo$67bo71b6o$63bo
+3bo$13boo22boo23bo$12bobo21bobo22bo4bo51boo$12boo22boo23bo54booboo$61b
+obbo51b4o$64boo51boo5$62boo51boo$59bobbo51b4o$10boo22boo23bo54booboo$
+10bobo21bobo22bo4bo51boo$11boo22boo23bo$61bo3bo$65bo71b6o$63bo72bo5bo$
+64bo77bo$121bo14bo4bo$120bobo10bo4boo5bobbo$22b6o69b3o18boobboo7booboo
+13bo$21bo5bo69bo20booboo10bo11bo3bo$27bo45boo23bo19booboo23b4o$12boo7b
+o4bo45bobo45bo16boobb3o$12boo9boo49bo62boobb3o$137boobb3o$boo143b4o$ob
+o96b3o35bo7bo3bo$bbo96bo49bo3boo$100bo44bobbo3b4o$139boo11booboo$135b
+4oboo12boo$135b6o$43boo91b4o$42boo41boo88b6o$44bo39bobo87bo5bo$86bo93b
+o$159bo14bo4bo$13boo143bobo10bo4boo5bobbo$12bobo120b3o18boobboo7booboo
+13bo$14bo106boo12bo20booboo10bo11bo3bo$117b4oboo12bo19booboo23b4o$117b
+6o35bo16boobb3o$102bo15b4o53boobb3o$101bobo9bobo11boo46boobb3o$79boo
+19bobbo8bobbo10b4o54b4o$78boo19booboo9bobo10booboo44bo7bo3bo$80bo19bob
+o16bobbo5boo57bo$101bo17bo3bo59bobbo$110bo7bo4boo52boo$25boo83bo8bo3bo
+49b4oboo$24bobo92bobbo5boo43b6o$14boo10bo99booboo43b4o$11b3oboo100boo
+7b4o$11b5o99bo4bo6boo$12b3o45boo59bo$56b4oboo52bo5bo$56b6o54b6o$57b4o$
+31bo10b3o21boo$31bo10boo11bo9b4o$21boo19bo11boo9booboo$20boo19bo12bo
+12boo$22bo28boo7bobo$51boo6bobboo$51boo7bobo$67boo$65booboo$56boo7b4o$
+54bo4bo6boo$60bo$54bo5bo$55b6o!
+p48 breeder #1
+
+The classical original breeder was constructed by Bill Gosper in the early 1970s. It 
+was the first pattern that demonstrated that quadratic population growth is possible 
+in Life. Bill's breeder produces a new p30 glider gun every 60 generations.
+
+The pattern shown here is a breeder of shorter period. At the time of this writing 
+(June 1998) it is probably the shortest period of any breeder constructed so far. 
+Every 48 generations the gliders from 12 Doppler rakes (see the pattern 
+DOPPLER.LIF) assemble new a p30 glider gun. The gliders fired by a gun barely 
+pass by the next gun.
+
+For a simimilar but smaller p48 breeder  see the pattern BREEDER2.LIF. For a 
+different way to achieve quadratic growth see the pattern RAKE_GUN.LIF.
+
+Dieter Leithner, 30 Aug 1991

@@ -1,0 +1,34 @@
+x = 113, y = 61
+49boo21boo$48bobo21bo$47b3o12bo7bobo10bobo$33bobo10b3o8boo3b4o4boo6bo
+4bobbo$31bo3bo11b3o8boo3b4o12boo5boo8bo$23bo7bo16bobobbooboboo3bobbo7b
+oo8bo3boo5bobo$22b4o4bo4bo13boobboobobo4b4o7boo10boo6boboo$21boobobo4b
+o23boobo3b4o17bobbo6booboo10boo$10boo8b3obobbo3bo3bo26bo20bobo8boboo
+10boo$10boo9boobobo6bobo59bobo$22b4o46boo12bo9bo$23bo24bo23boo11bo$34b
+o11boo37b3o$32bobo12boo$33boo36b3o$24bo46boo$24bobo14boo31boo$7bo17bob
+o12boo31b3o$7boo16bobbo3boo3b3obo30bobo15b3o9boo$bboo4boo15bobo4boo3bo
+3bobobboo19boo3boo16bo9bobbo$bboo4b3o13bobo11booboo4bo19bo17bo5bo7bo7b
+5o$bboo4boo7bobo4bo22bobo6bo8bobo15b4o12bo6bo5bo$7boo9boo28boo4bobo8b
+oo15boboboo11bo7boo3bo$7bo10bo33boo27bobbob3o11bobbo7bo$52boo28boboboo
+14boo$3bo32boo14boo17bo6boo3b4o$bb3o27boobboobboo12bobo13bo6bobo5bo$bo
+3bo26bobobbobboo14bo13b3o4bo$ob3obo18bo7b3o40boo$b5o20boo6boo$25boo$
+42boo32boo$41bobbo32bo$30bo13bo11bo20bobo5bo$30bo13bo9boo22boo4bobo$
+41boobo10boo26boboo15boo$28bo12boo39booboo14bobo$83boboo13bo6boobboo$
+69bo14bobo13bobbobbobboboo$42boo23b3o15bo5bo8bo6boo$3boo37boo22bo5boo
+17bobo7bobo$3boo61boo4boo17boo9boo$9boo9boo$9bobo9boo17bo20bo$3oboo4b
+3o7bo6bo13boo16boo10boboo$4obbo4b3o12bobo11boo18boo9bobo$4boo4b3o12bo
+3boo3boo36bo$9bobo13bo3boo3boo36boo12boo$9boo14bo3boo41boo12bobo$26bob
+o35bo7boo12bo11bo$27bo35b3o30bobo$62b5o16boo9boo12boo$61boo3boo15boo9b
+oo12boo$62b5o7boo3bo6boo6boo$62bo3bo7bobo3bo5b3o7bobo$63bobo9b5o6boo
+10bo$50boo12bo11b3o4boo$50boo31boo$47bo$33boo13bo15boo$33boo11b3o15boo
+!
+Side shooting gun
+
+Glider triplets from a p120 glider gun and a block pushing raction produce a glider 
+going sideways every 124 generations. Each sideways glider travels on a different 
+path.
+
+For an application of this pseudo p124 side shooting glider gun see the pattern 
+ELBOW.LIF by Scot Ellison.
+
+Dieter Leithner and Dean Hickerson, 9 Jul 1994, improved 22 Feb 1997 and 26 
+May 1998

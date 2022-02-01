@@ -1,0 +1,21 @@
+x = 44, y = 81
+16boo17boo$7bo8bobo16boo$6bobooboo4b3o$6bob3obbo4b3o6boo$7bo3boo4b3o7b
+oo$16bobo$16boo$4boo3boo$7bo$4bo5bo$5booboo25b3o$6bobo25bo3bo$7bo25bo
+5bo$7bo25bo5bo$36bo$34bo3bo$35b3o$36bo$$9bobo$10boo25b3o$4b3o3bo26b3o$
+3bo3bo28bo3bo$bbo5bo21bobo$bbooboboo21boo3boo3boo$31bo$17bo$5bo12boo$
+4bobo10boo$4bobo$5bo18bo$22boo$5boo16boo$5boo$oo35boo$bo35boo$bobo6bo$
+bboo4bobo$6boo31boo$6boo29bo4bo$6boo15b6o14bo$o7bobo11bo5bo8bo5bo$3o7b
+o17bo9b6o$3bo18bo4bo$bboo20boo$18boo$19boo$18bo20boo$39boo$24boo$bboo
+3boo14boo$bboo3boo16bo$3b5o3bo$4bobo4boo$10bobo$4b3o$32bo$31boo7bo$31b
+obo5b3o$38b5o$7bo29boo3boo$6bobo29b5o$5bo3bo28b5o$6b3o29bobbo$4boo3boo
+26bo3bo$37bo$37boboo$38bo3$35boo3boo$35bo5bo$$36bo3bo$25boo10b3o$7boo
+14bo3bo$7boo8boo3bo5bo$17boobboobo3bo$22bo5bo$23bo3bo$25boo!
+p30 HWSS gun
+
+A p30 HWSS gun cannot be built by synthesizing the HWSS by one of the 
+standard glider reactions because in all cases one of the incoming gliders for the 
+next HWSS would collide with the outgoing previous HWSS. In the device shown 
+here two pi-heptominos and a pre-beehive react to form a HWSS. At the time of 
+this writing (June 1998) this pattern is still the smallest known p30 HWSS gun.
+
+Dieter Leithner, 28 Aug 1995

@@ -1,0 +1,14 @@
+x = 102, y = 81
+33b3o14boo$33bo3bo12boo$33bo4bo$3boo14boo13bo3bo$3boo15boo32boo3bo10boo$
+16b5o13bo3bo7b3o3b3oboboboo7b5o$16b4o13bo4bo5booboboob4o3boobo6bo4bo$33b
+o3bo5bo5b3o8bobbo5b3obbo$16b4o13b3o8booboboob4o3boobo7bobboo7b4o$16b5o
+25b3o3b3oboboboo9boo8boobbo14boo$3boo15boo32boo3bo20boobbo15boo$3boo14b
+oo50boo8bobbo$70bobboo7boo$53boo14b3obbo$35bobo15boo14bo4bo7boo$36boo31b
+5o7bobbo$36bo33boo8boobbo15boo$81boobbo14boo$82b4o3$67bo$65boo$66boo$$
+47bo$48boo$47boo6$61bobbo$65bo$61bo3bo$62b4o8$44bo6b3o$42boo9bo$43boo7bo
+9$40boo$31bobo5bobo$31boo8bo$32bo8$9b4o$oo6boobbo15b3o$oo5boobbo18bo6boo
+$8bobbo17bo6b5o$9boo25bo4bo5boo$36b3obbo5boo$9boo26bobboo$8bobbo26boo$oo
+5boobbo$oo6boobbo25boo$9b4o24bobboo$36b3obbo5boo$36bo4bo5boo$36b5o$37boo
+!
+A p414 ( = 9 * 46 ) intermitting LWSS gun. During 4 periods it emits a LWSS and 
+during the next 5 periods it doesn't.

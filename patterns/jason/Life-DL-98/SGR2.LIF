@@ -1,0 +1,19 @@
+x = 104, y = 68
+26booboo$26booboo$$26b5o$26bo4bo28bo$29bobbo25b3o$29boobobbo21bo$26bo
+5bobobo20boo$25bobo4bobboo$25bobbobboo4boo48boo$26boo9bo49bo$35bobo50b
+o$35boo50boo$96bo$94b3o$93bo$93boo$12bo$13bo70boo$11b3o70boo$16boo$16b
+obo$17bo$$3boboo$3boobo$74boo$12boo28boo30bo$12boo12boo14bo5boo25b3o$
+26bo16b3obobo27bo$27b3o15bobo7boo20bobo$29bo16boo7boo21boo$$102boo$48b
+o54bo$22boo22b3o29boo18boobo$22bo22bo31bobo18booboo$20bobo22boo30bo$
+20boo11bo42boo20booboo$33b3o63bobo$36bo62bobo$35boo59booboo$96bobo$98b
+o$22bo26boo11bo35boo$22b3o24boo11b3o$25bo39bo$24boo38boo6$oo$oo52boo$
+26boo26boo$26boo$$5boo$5boo84boo$boo88boo$boo48boo32boo$51bo33boo$52bo
+$7boo42boo$7boo78boo$80boo5boo$80boo!
+Stable glider reflector (SGR) #2
+
+This SGR (90 degree glider reflection) is neither as small nor as fast as Stephen 
+Silver's current record holder (see the pattern SGR1.LIF). However, it shows a 
+somewhat different method to construct SGRs.
+
+Dieter Leithner, 11 Jun 1997, improved 3 Jun 1998 with Stephen Silver's warped 
+eater2

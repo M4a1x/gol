@@ -1,0 +1,28 @@
+x = 81, y = 63
+36boo10boo$35bobbo8bobbo$35b3o10b3o$38b10o$37bobb6obbo$37boobb4obboo3$
+60boo12boo$60boo12boo$$54bo20bo$53bobo18bobo$19boo30bo3bo18bobo$19boo
+30boboo20bo$42b3o5boobbo3boo$41bo3bo4boo6bobo$28boo10bo5bo4bobo5bo6boo
+4booboboo$17boo9boo10bo5bo5bo13bobo3bo5bo$40b3ob3o21bo4bo3bo$68boo4b3o
+3$16boo3boo45boo$17b5o18b3ob3o21bo$17booboo6boo10bo5bo5bo13bobo$7boo8b
+ooboo6boo10bo5bo4bobo5bo6boo$7bobbo7b3o20bo3bo4boo6bobo12bo$bboo7bo30b
+3o5boobbo3boo12bo$bobbo6bo39boboo17b3o$bboo7bo39bo3bo$7bobbo42bobo$7b
+oo45bo$3bo$bb3o55boo13b5o$bo3bo54boo3bo8bob3obo$3bo9boo50bobo7bo3bo$o
+5bo6boo5bo15boo27boo9b3o$o5bo12b3o13bobbobb4obboo28bo$bo3bo12bobobo12b
+3obb6obbo$bb3o14bobbo15b10o$19b3o15bo10b3o$20bo16boo8bobbo7bo17boo$48b
+oo7bo18boo$57b3o3$13bo7bo$$3boo6b3o7b3o$3boo7booboobooboo27bo$13b3o3b
+3o28bobo$14bo5bo29boo4boo$55bobbo$58bo$58bo$55boobo$55boo$$41boo$9boo
+13boo14bobo13boo$9boobboo5boobboo14bo15boo$13boo5boo17boo!
+p30360 glider gun
+
+Here is a relatively small gun with a large period. The gun's period is more than 
+thousand times longer than the period of the first glider gun (Bill Gosper's famous 
+p30 gun).
+
+The gliders from a p690 gun (at left) usually meet in a vanishing reaction with 
+gliders from a p30 gun (at right). The p30 gliders pass by a p132 glider filter (at top 
+center) which removes every 22nd glider from the p30 stream. A glider in the p690 
+stream only passes if it coincides with a hole in the p30 stream. The downstream 
+p8 blocker (at lower right) acts a another glider filter (period doubler). The whole 
+gun emits a glider only once in LCM (8, 30, 132, 690) = 30360 generations.
+
+Dieter Leithner, 31 May 1998

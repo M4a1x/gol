@@ -1,0 +1,36 @@
+#C p6292 glider gun using an intermitting glider gun (IMG) and a LWSS
+#C making module whose LWSS are interfering with the IMG's glider
+#C stream. The original IMG's period is 3564 generations, it is
+#C lengthened by the interfering of the LWSSs with the IMG's glider
+#C stream by a factor of 143/81. The IMG is a normal gun which emits 1
+#C glider per period.
+#C [K6292#4.Plf]
+x = 197, y = 142, rule = B3/S23
+174boo10boo$173bobbobb4obbobbo$173b3obb6obb3o$176b10o$175bo10bo$175boo
+8boo8$166boo$167bo12b3o$167bobo9bo3bo$168boo8bo5bo$177bo3bo3bo9boo$
+156bo6boo12bo7bo9boo$156b3o4boo12bobo3bobo$159bo18boo3boo$158boo$$178b
+oo3boo$177bobo3bobo$163b3o7bo3bo7bo9boo$162bo3bo6bo3bo3bo3bo9boo$161bo
+5bo10bo5bo$161bo5boboboo6bo3bo$161bo5b3o10b3o$162bo3bobooboo$163b3o3bo
+$$151bo$149boo$150boo13bo$164b3o$164b3o$9boo4boo4boo141bobo8boo8boo$8b
+obbobo4bobobbo140b3o8bo10bo$8b3o10b3o139b5o8b10o$11boo6boo141bo5bo4b3o
+bb6obb3o$10bobb6obbo140bo5bo4bobbobb4obbobbo$10boo8boo139booboboboo4b
+oo10boo$37bo102bo19bobbooboobbo$35b3o100boo20boo7boo$11boo21bo104boo$
+11b4o19boo$10bo3bo$13boo10bo$23booboo$22b5o$15boo5booboobboo$24bo4b3o$
+32bo$oo29bo$oo12b3o14bo$14b3o13bobbo$31bobo$14bobo14b3o$14bobo$37boo$
+14b3o14boo4bo$oo12b3o14boo5b3o$oo38bo$27boo$27bobo$15boo12bo$29boo$$
+13boo$10bo3bo$11b4o$11boo3$10boo8boo$10bobb6obbo$11boo6boo$8b3o10b3o$
+8bobbobo4bobobbo$9boo4boo4boo13$196bo$97boo5boo7boo79bobo$67boo7boo20b
+oo4bobbooboobbo80boo$67bobbooboobbo19bo7booboboboo4boo10boo$50boo10boo
+4booboboboo29bo5bo4bobbobb4obbobbo$49bobbobb4obbobbo4bo5bo30bo5bo4b3o
+bb6obb3o$49b3obb6obb3o4bo5bo31b5o8b10o$52b10o8b5o33b3o8bo10bo$51bo10bo
+8b3o34bobo8boo8boo$51boo8boo8bobo18boo14b3o$71b3o17boo15b3o$71b3o19bo
+15bo$72bo13boo$87boo$86bo$104bobo17b3o$68bo3b3o31bo$65booboobo3bo27bo
+20bobo$55b3o10b3o5bo27bo14b3obbobobb3o$54bo3bo6boobobo5bo26bo$53bo5bo
+10bo5bo27boo11boo3bob3obo3boo5boo$41boo9bo3bo3bo3bo6bo3bo29bo11bo15bo
+5boo$41boo9bo7bo3bo7b3o42bo15bo$52bobo3bobo45b3o9boobbo5bobboo$53boo3b
+oo48bo11boo7boo$102boo16boo7boo$78boo23bo14boobbo5bobboo$53boo3boo18bo
+21b3o4boo8bo15bo$52bobo3bobo12boo4b3o18bo6boo8bo15bo5boo$41boo9bo7bo
+12boo6bo35boo3bob3obo3boo5boo$41boo9bo3bo3bo51boo$53bo5bo8boo41bobo5b
+3obbobobb3o$54bo3bo9bobo40bo12bobo$55b3o12bo39boo$70boo52b3o7$119boo8b
+oo$51boo8boo56bo10bo$51bo10bo57b10o$52b10o55b3obb6obb3o$49b3obb6obb3o
+52bobbobb4obbobbo$49bobbobb4obbobbo53boo10boo$50boo10boo!

@@ -1,0 +1,27 @@
+#Cp01216 - Two-beehive G->H gun using 202 step track.
+#CScot Ellison - April 23, 2003 - Extension of Dave Greene's p01112.
+x = 115, y = 108, rule = B3/S23
+52bo$55bo18b3o$54bobo16bo$53bo3bo15bo3bo$54bo3bo8bo5bobbobo8bo$18bo36b
+o3bo5b3o7bobobbo4b3o$17bobo36bo3bo3bo11bo3bo3bo$17bobo37bobo4boo14bo3b
+oo$9bo6boob3o36bo18b3o$9b3o10bo39bo19bo$12bo3boob3o39bobo17bobo$11boo
+3boobo42boobboo14boobboo$66boo18boo3$104bo$6boo36bo7bo$7bo36b3o4boo49b
+3obo$7bobo37bo3boo48boboo$8boo36boo3bo49boobo$99bob3o$$101bo$97bo$96bo
+bo$96boo$76boo22boo$37boo33boobboo22bobo$37boo32bobo21boo5bo$7boo40boo
+21bo22boo5boo$7boo39bobbo16bo$49boo4boo10b3o4boo$55bobo8bob3o3bo$57bo
+7bo3bo5b3o$57boo5bo3bo8bo$47boo14b3obo$48bo15b3o29b3o$45b3o17bo30b3o$
+27booboboo11bo12b3o24bo10b3o$27bobooboobboo19bo27b3o5b3o$8boo26bobo18b
+o3bo26bo4b3o$3boobbobbo9boo15bo3bo15bobbobo24boo4b3o$3bo4bobo9boo18boo
+17bobobbo$oobo5bo24boo3boboo17bo3bo25bo$boboboo28bobb3obbo20bo24bobo$o
+bbobbo25b3o5bobobo16b3o21boobboo$oobbo4bo22bo8bobobo20bo18boo$5b5o32bo
+bb3o17bobo$43boobo19boo$7b5o32boo16boo$7bo3bo32bo8b3o5bobo$8bobbobo42b
+o4bo5boo$7boo3boo38bo3bo3boo5boo$42bo8bobobbo$42b3o4bobbobo47boo5boo$
+45bo3bo3bo48boo5bo$44boo3bo57bobo$30boo18b3o54boo$30bo16bo55boo$28bobo
+15bobo54bobo$28boo12boobboo56bobboo$42boo$105bo3bo$105bo4bo$47bobo57bo
+bobo$48boo58bobobo$48bo60bo4bo$110bo3bo$$111boo$94boo$90boobboo$10boo
+15boo60bobo$9bobo15boo15boo44bo$9bo34boobo38bo$8boo38bo43boo$45bo22boo
+14b3obo3bo$46boboo18boo13boboo6b3o$48boo33boobo8bo$81bob3o$52bo$15bo
+35bobo29bo$15b3o34boo$18bo29boo$17boo28bobo$47bo5boo40bo$46boo5boo39bo
+bo$94bobo$75boo16booboo$39bo35boo$37b3o53booboo$36bo20boo34boobo$36boo
+18bobo39bo$56bo40boo$55boo$14boo$14boo73boo$89boo4boo$66boo27bobo$65bo
+bo29bo$31bo33bo31boo$23boo5bobo31boo23boo$23boo6bo57boo3$45bo38bo$46bo
+36bobo$44b3o37bo!

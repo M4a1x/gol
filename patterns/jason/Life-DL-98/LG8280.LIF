@@ -1,0 +1,40 @@
+x = 139, y = 56
+boo$bo29boo$31boo$10boo30bo75b3o5b3o$oo7bobbo12boo13bobbo74b3o$oo7bobb
+oo11boo3boo8b5o74bo5bo3bo$9bobbo17boo8b3oboo73bo5bo3bo$11bo29boobo8bo
+57bo7bo$42boo9b3o14boo38bobo5bobo5b3o$11bo21bo22bo13bobbo4b4o18b4o4bo
+bbobo$9bobbo19boboo6boo9b3o15b3o3b6o6b4o6b6o3b3obbo$oo7bobboo14boo4boo
+5boobo8bo14b3o5b8o4b6o4b8o5boo5bobo5b3o$oo7bobbo15boo10b3oboo21bo3bo3b
+oo6boobb8obboo6boo3bo8bo$10boo21boo5b5o14boo7b3o5b8obboo6boobb8o5boo6b
+o5bo3bo$31b3o6bobbo11boobboobboo6b3o3b6o4b8o4b6o3b3obbo5bo5bo3bo$bo29b
+o10bo12bobobbobboo5bobbo4b4o6b6o6b4o4bobbobo4b3o$boo53b3o11boo17b4o17b
+ooboo3b3o5b3o$57boo3$43b4o88b4o$42bo3bo87bo3bo$32bo13bo91bo$31b3o8bobb
+o88bobbo$7boo9boo10bo3bo100bo$7boo8boo11bo3bo$18b5o7booboo9boobb3obboo
+boo19boo38booboo4bo$19b4o9bo11bobb5obbobo9boo9bobbo34bobbobo4b3o$45b9o
+bbobobooboobbobbooboo3b3o13b8o13b3obbo3bobobo5bo$19b4o19b3o9booboboobo
+boobb3obob4o5b8o3bob4obo3b8o5boo4bobobo5bo$18b5o19bobbo7bo3bo4bo3boo4b
+o5bo4bob4obo3b8o3bob4obo4bo7b3o5bobo$7boo8boo10boo12boo9b3oboboobboobb
+oboobb4o5b8o14b8o5boo6bo7bo$7boo9boo9boo25bobo3boobbobo3boo4b3o34b3obb
+o13bo$52b3oboboboobboboboboobb4obbo34bobbobo13bo$41boo8bobbobobo4bobbo
+bo4bo4bo38bobo6bo7bo$41boo8boo4boob4oboboob4obboo40bo6b3o5bobo$59bo5bo
+3bo6bo47bobobo5bo$59bob3obo3bobo5bo46bobobo5bo$60bobobo5boo4boo47b3o$
+36bobo7b3o77bo$11boo12boobbo5boobbo4bo4bo$11boo12boboo10bo4bo5bo$26bo
+6b4o3bo8bo9bo$26b3o4boobobo8boo10b3o$62bo$26b3o4boobobo8boo10b3o$26bo
+6b4o3bo8bo9bo$11boo12boboo10bo4bo5bo$11boo12boobbo5boobbo4bo4bo$36bobo
+7b3o5$34boo$34boo!
+Gliderless p8280 LWSS gun with muffler
+
+This gun uses a gliderless p46 LWSS gun (see the pattern LG46_GL.LIF). A 
+number of partially welded sparkers, make up the gun's "muffler". From left to right 
+the following sparkers act as LWSS filters:
+
+- p4 MW emulator (Robert Wainwright), filter factor 2
+- p8 blocker, ((Robert Wainwright), filter factor 2
+- 2 welded copies of the p6 pipsquirt (Noam Elkies), filter factor 3
+- 2 copies of the p9 sagging snackers (Mark Niemiec, special ends by Dean
+  Hickerson), filter factor 3
+- 4 copies of the pentadecathlon (John Conway), filter factor 5
+
+A LWSS only makes it through the muffler once every LCM (46, 4, 8, 6, 9, 15) = 
+46 * 180 = 8280 generations.
+.
+Dieter Leithner, Dean Hickerson and Stephen Silver, 21 May 1998

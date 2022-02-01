@@ -1,0 +1,19 @@
+#Cp8832 gun based on new p4416, doubled using a p46 pulse divider
+#CDave Greene, 7/28/2006
+x = 116, y = 89, rule = B3/S23
+6bo34boobo$5bobo14bo18boboo$5bobo13bobo$4booboo12bobo$22bo8$3bo5bo$bb
+3o3b3o$booboobooboo$3o7b3o24bo7bo$36bobo5bobo16boo$bbo7bo10boo13bobo5b
+obo16bobo$20bobo14bo7bo19bo$22bo42boo$40boo$39bobbo$9bo30boo$8b3o$8bo
+bbo$7bobobo42bo$8b3o9boo31bobo$bboo5bo10boo31bobo$bboo50bo$$49boo$48bo
+bbo$49boo$14bo5bo$13b3o3b3o42bo$12boobbobobboo40bobo$12bo3bobo3bo40bob
+o$12boboo3boobo41bo$12boo7boo$59boo$58bobbo$59boo43boobo$85boo12b3obb
+oobbo$72boo11boo13boo6bo$72boo27b3o3b4o$102bo3bo3b3o$86bo5bo20bo$71boo
+13bo5bo9bo3bo3b3o$70bobo28b3o3b4o$70boo10boo11boo3boo6bo$99b3obboobbo$
+86bo5bo11boobo$86bo5bo$13boo5boo$13boo5boo91boo$113boo$$106boo$89boo
+14booboo4boo$89boo15bobbo4boo$106bobbo$107boo$18boo68boo$18boo66b4o17b
+oo$29bo23boo30bobbobo15bobbo$27bobbo22boo29bo21bobbo4boo$17boo8b5o10b
+oo41boo18booboo4boo$17boo8b3oboo9boo42b3o17boo$28boobo43b3o9boo$29boo
+42bo4bo9bo24boo$73bo5bo33boo$29boo35bobobo7bo$28boobo32b7o5boo$17boo8b
+3oboo30bo$17boo8b5o32b7o5boo$27bobbo17boo16bobobo7bo$29bo18boo23bo5bo
+10boo$18boo53bo4bo11boo$18boo55b3o$$56boo$56bo$57b3o$59bo$$46boo$47bo
+24bo$44b3o26bo$44bo26b3o!

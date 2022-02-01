@@ -1,0 +1,16 @@
+#Cp1054 based on Karel Suhajda's p527.   Scot Ellison - May 14, 2003
+x = 127, y = 73, rule = B3/S23
+65boo7boo$18boo44bobo7boo$11boo5boo42b3obobo27bo$11boo35bo12bo5boo25b
+3o11bo$37boo7b3o12boo30bo14b3o$33boo3bo6bo47boo16bo14bo$13boo18bo4bobo
+4boo63boo12b3o$13boo16bobo5boo73boo7bo$7boo22boo82bo7boo$7boo99bo$107b
+o5boo$106boo14boo$103boobboo4boo7boo$103boo3bo$113bo5$106boo$107bo$
+105bo$4boo99boo$5bo45boo56boo$5bobo43bo24boo32bo$6boo37boobo3b3o21bo
+30b3o$45boob4obbo22b3o27bo$51bo27bo$33boo6boobboob3o$32bobo6bo4bobo$
+32bo9b4o80bo$31boo10bo57bo22bobo$41bo59b3o21boo$41boo61bo$103boo14boo$
+oo117boo$bo$o6boo$oo5boo14boo$23bo61boo$24b3o59bo$26bo57bo10boo$82b4o
+9bo$79bobo4bo6bobo$77b3oboobboo6boo$48bo27bo$20bo27b3o22bobb4oboo$18b
+3o30bo21b3o3boboo37boo$17bo32boo24bo43bobo$17boo56boo45bo$21boo99boo$
+22bo$20bo$20boo6$23boo$4boo17boo$4boo$$119boo$3boo90boo22boo$4bo82boo
+5bobo16boo$b3o12boo63boo4bobo4bo18boo$bo14bo16boo47bo6bo3boo$17b3o14bo
+30boo12b3o7boo$19bo11b3o25boo5bo12bo35boo$31bo27bobob3o42boo5boo$52boo
+7bobo44boo$52boo7boo!

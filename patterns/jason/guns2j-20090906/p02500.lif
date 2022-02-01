@@ -1,0 +1,23 @@
+#C p02500 based on Karel Suhajda's p625
+#C Scot Ellison - May 2003
+x = 225, y = 72, rule = B3/S23
+91bo15bo9bo53boo14bo$91b3o13b3o5b3o28boo24bo14b3o$94bo15bo3bo13boo17bo
+13boo6b3o18bo$93boo14boo3boo13bo17bobo11boo6bo19boo22bo$128bo19boo61b
+3o$74bo53boo80bo$55boo17b3o133boo$56bo20bo$43bo11bo20boo11boo$43b3o9b
+oo32boo$46bo132boo$33boo10bo85boo46boo$34bo10bo3bo81boo$34bobo12bo173b
+oo$35boo9bo3bo172boo$45bo12boo$46boo3boo5boo$50bobbo122boo$51bobo46boo
+74bo$52bo46bobo11boo6bo19boo14boo3boo13bo$10bo88bo13boo6b3o18bo11bo3bo
+3bo13boo$9bobo86boo24bo7bo6b3o12b4o5b3o$9bobo111boo7b3o4bo17bobo5bo6bo
+$7b3oboo11boo39bobboo65bo16b4o3b3o10b3o37boobo$6bo17boo23boo12b3o3bo
+64boo16bo3b3o3bo12bo36boob3o$7b3oboo36bo12bo3b3o3bo16boo64bo3b3o12boo
+23boo17bo$9boboo37b3o10b3o3b4o16bo65boobbo39boo11boob3o$52bo6bo5bobo
+17bo4b3o7boo111bobo$28bobo28b3o5b4o12b3o6bo7bo24boo86bobo$28boo17boo
+13bo3bo3bo11bo18b3o6boo13bo88bo$29bo17bo13boo3boo14boo19bo6boo11bobo$
+48bo74boo$25boo20boo$25boo138boo$165boo$oo186boo$oo186bobo$92boo96bo$
+44boo46boo84boo10boo$44boo132bo$134boo32boo9b3o$134boo11boo20bo11bo$
+147bo20bo$13boo133b3o17boo$14bo80boo53bo$11b3o61boo19bo$11bo43bo6boo
+11bobo17bo13boo3boo14boo$47boo4b3o6boo13bo17boo13bo3bo15bo$47boo3bo24b
+oo28b3o5b3o13b3o$52boo53bo9bo15bo$60boo$59bobbo$59bobobbobbo$58boobob
+5o$58bobbo$59bobb4o$58bobboo3bo$59bobb3obo$52boo4bobbo3bo$52boo4boobob
+oo$59bobobo$59bobobbo$60bobboo$44boo$45bo$42b3o$42bo$$54boo$29bo24bo$
+28bo26b3o$28b3o26bo!

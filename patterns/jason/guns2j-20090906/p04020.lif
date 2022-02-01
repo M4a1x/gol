@@ -1,0 +1,20 @@
+#C Added Karel Suhajda's P15 to an existing gun
+#C to triple the period.      Scot Ellison   December 2002
+x = 102, y = 87, rule = B3/S23
+36boo$36boo12bo$48b3o$36b4o7bo$33bobo4bo6boo$31b3oboobboo$19boo9bo$15b
+oobbo7bobb4oboo45boo$14bobbobo7b3o3boboo46bobboo$10boobobbobboo9bo52bo
+bobbo$10boboobobobo9boo51booboboboboo$15b3o3bo49boo10boboboboobo$11b4o
+bob3obo48bo9bo3b3o$10bo3bo3bo3bo46bobo8bob3obob4o$11b3o5b3o43boobboo9b
+o11bo$13bob3obo45boo14b3obobob3o$14b5o64booboboo$15b3o82boo$100bo$boo
+95bobo$bbo95boo$bbobo83boo$3boo83boo4$41boo28boo4boo$35boo4bobo9boo16b
+obo3boo$36bo6bo8bobo18bo$33b3o7boo7bo20boo18boo$33bo17boo4boo34bobo$
+55bobbo36bo$55boo38boo$64boo$64boo$20boo$20bo$21b3o$23bo$$oo$o82b3o$bb
+oboo76bo3bo4bo$booboo76bo3bo3bobo$83b3o4boboo7bo$booboo83boo8bobo$bbob
+o95boo$bbobo$3bo50bo34boo$54b3o26b3o4boboo$57bo24bo3bo3bobo$56boo24bo
+3bo4bo$12boo69b3o$12boo$21boo$19bobbo$19boo4boo17bo$3boo20bo7boo7b3o$
+4bo18bobo8bo6bo$4bobo16boo9bobo4boo$5boo28boo6$83boo$25b3o55boo$25b3o$
+26boo32b3o$59b5o$11boo9bob3obo29bob3obo$7boobboo8bobob4o27b3o5b3o$6bob
+o12bo9bo23bo3bo3bo3bo10boo$6bo15bo6boboo22bob3obob4o11boo$5boo16bo5bob
+oo23bo3b3o$25boo3bo16boo9boboboboobo$47bo9boobbobboboo$32bo8boobo3b3o
+7bobobbo$32bobo6boob4obbo7bobboo$32boo13bo9boo$37boobboob3o$29boo6bo4b
+obo$30bo7b4o$27b3o$27bo12boo$40boo!

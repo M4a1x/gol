@@ -1,0 +1,14 @@
+x = 161, y = 145
+136boo$136bobo$131boo4b3o12bo$127b4obbo4b3o8b4o$127b3oboo4b3o8b4o5boo$
+136bobo9bobbo4bobbo$136boo10b4o4bobbo$149b4o3bo$152bo3bo$156bobo$156bobo
+$157bo3$154boo3boo$139b3o12bo5bo$141bo$140bo14bo3bo$156b3o4$132boo$131bo
+bo$133bo$156boo$156boo4$117bo$117bobo$117boo13$109b3o$111bo$110bo5$95bo
+6boo$94bo6bobo$94b3o6bo6$87bo6b3o$87bobo6bo$87boo6bo5$80bo$79bo$79b3o6$
+72bo$72bobo$72boo5$27boo36bo6boo$29bo34bo6bobo$16boo12bo33b3o6bo$16boo4b
+o7bo8boo$5boo6boo5boo8bo8boo$5boo5b3o5bobboo4bo$13boo6b5oboo$16boo4bo$
+16boo39bo6b3o$57bobo6bo$30bo26boo6bo$31bo$29b3o3$50bo$49bo$49b3o$38bo$
+36bobo$37boo10$42boo$41bobo$43bo4$3boo$3boo$34b3o$36bo$35bo24bo$61bo$59b
+3o$$bb3o$bo3bo21boo$26bobo$o5bo21bo$oo3boo3$3bo$bbobo$bbobo14b3o$4bo3bo
+12bo$4bo3b4o8bo$bobbo4b4o10boo$bobbo4bobbo9bobo$bboo5b4o8b3o4boob3o$8b4o
+8b3o4bobb4o$8bo12b3o4boo$22bobo$23boo!
+A pseudo random gun (real period is 152880) which emits gliders "randomly"

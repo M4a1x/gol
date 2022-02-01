@@ -1,0 +1,15 @@
+#C p4680 gun, p104 -> lcm(30) -> p30 tripler, DE 2/23/03
+x = 71, y = 66, rule = B3/S23
+29boo8boo$21bo7bo9bobbo$7bo12bobo4bobo$5boobo12bo5boo10bobbo$4bo26boo
+5bobbo$3bobobbo22boo5bobo$3bobbo32bo$4boo$39boo$24boo13boo$24b3o$4boo
+17bobbo$4bobbo16boo4boo$29bobbo6boo$4bobbo22boo6bobbo$3bobbo5boo22bobb
+obo$3bobo6boo26bo$4bo18bo12boboo$22bobo12bo$4boo17bo$4boo4boo$10bo$7b
+oobo$o6boobobo$3o8boo$3bo$bboo24bo$11boo14bobo$11boo14boobo5bo$27boob
+oo3bobo$27boobo4bobo$20bo6bobo6bo$18bobo7bo$12bo6boo$bboo3boo3boo$11bo
+bo19boo3boo$3bo3bo26b5o$4b3o27booboo15boo10boo$4b3o9boo9bo6booboo15bob
+o9boo$14boobboo8bo6b3o17b3o$14bo4bo6b3o27boo$7bo7bobbo37boo$6b3o4bobo
+bbobo33bobo$5bo3bo3boo4boo34bo$7bo$4bo5bo$4bo5bo41boo3boo$5bo3bo24bo
+17boo3boo$6b3o24b3o$32b5o17b3o8b5o$31bobobobo16b3o7bob3obo$31boo3boo
+17bo9bo3bo$66b3o$23bobo41bo$22bobbo$21boo40bo$13boo4boo3bo3bo3boo28boo
+$6boo5boo6boo6bo31boo4boo$6boo14bobbo3bobbo27b3o4boo$23bobo5bo5b6o18b
+oo4boo$36bo6bo18boo$35bo8bo18bo$36bo6bo$37b6o9bo$53bo$34bo16b3o!

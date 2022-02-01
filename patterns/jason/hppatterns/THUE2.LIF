@@ -1,0 +1,47 @@
+x = 132, y = 146, rule = S23/B3
+71bo$71b4o$$55b3o$$55boo12bobo$55boo13bo$54bobbo13boo$47boo8bo11bobbo$
+47boo7b3o10booboo12bo$57boo19bo7bo$54boo22b3o5bo$53bobbo23bobo3boo$78b
+obbo$57boo19boobbo$55bobbo$39boo14b3o$39boo$$68bo6b3o$67bobo3bo4bo$68b
+o3boo4bo$71bo6bo$68bobobbob3o$31boo36b5o$31boo6bo28bo$38b3o56bo$37bobb
+oo55b4o$37boobboo$40boo$36b5o$35boo58bobo$35bobbo57bo$36boo59boo$95bo
+bbo$95booboo$58bobo$58bo$58bobbo$61bo4$57bo$56b3o$55booboo$55bo3boo32b
+oo$53bobobobo33boo$52bobboboo$52boboo$53boo$65bo$64b3o$63bobboo$63boo
+bboo16boo$66boo17boo$48boo12b5o$48bobo10boo$48bo12bobbo$62boo3$77boo$
+77boo5$61bo$59boo$60boo$$64boo$64bobo$64bo5$48bo34bo$48b3o30b3o$51bo
+28bo$32bo17boo28boo17bo$20bo11b3o20boo40b3o11bo$18b3o14bo20boo38bo14b
+3o$bbo14bo16boo19bo40boo16bo14bo$bb3o12boo42boo6boo42boo12b3o$5bo7boo
+46bobbo4boo7bo30bo16bo$4boo7bo63b3o25bo20boo$20bo20bobbo16bobbo11bobb
+oo15b4o4bo3bobo$14boo5bo19bo3bo14bobbo4b3o5bo3bo14boobbo3boo5bo$5boo
+14boo17bo4bo14bobo5boo7boobo13boobbo4boo20boo$5boo7boo4boobboo14bo4bo
+15bo9boo6boo14bobbo7bo10b3o5boo$20bo3boo14bo3bo25b3o23boo5booboo9bobo$
+15bo25bobo17boo6bobo3bobo26bobo10bo3bo$61boo6boo3bobbo37bobboobo$74bo
+3bo38bo3bo$74bobo41boo$78boo33bo$21boo36boo10bo7bo29boobbo5bo$21bo19b
+oo16bobo8boboobobbo10boo19bo3bo4bo$23bo16bobo18bo8bo5b3o10bobo16bo5b3o
+$22boo16bo13bo6boo6boo20bo16boo$18boo19boo4boo6boo30boo4boo19boo$18bo
+24bobbo5bobbo29bobbo24bo$19b3o21boo7bobo32boo21b3o9bobo$8b3o10bo31boo
+23boo30bo12boo$7bobbo67boo43bo$11bo$7boo$bboo3boo3bo115boo$bobo8bo115b
+obo$bo8bo119bo$oo6b3o119boo$8boo52boo4boo$8bo53bo6bo$11bo48bobo6bobo
+50bo$7b6o47boo8boo49b3o$6b5o109bobboo$6bo3bo113bo$7b3obo110b3o$7bob3o
+30bo46bo30booboo$11bo7boo21b3o42b3o21boo5boobo$6b3o8bobbo24bo6boo23b3o
+6bo24bobbo3bobboo$17boo4boo19boo5bobo23bo8boo19boo4boo4boo$boo20bo16b
+oo11bo22b3o11boo16bo20boo$bbo18bobo16bo8bo41bo16bobo18bo$bbobo16boo19b
+o5bo40bo19boo16bobo$3boo36boo5bobboo36boo36boo$49b3o$9boo3boo24bo9bo$
+8bobobbobo23boboo69boo$8bo4bo24boo3bo66b3oboo$8bobbobbo19boo3bo70bobob
+oo$9b3o23boobbo3bo46bo17boobo$32boobo3bo17boo14boo15boo$32bo6bo17boo
+14boo14boo16bo$25bo6bobo$26bo6boo4bobo$9boo13b3o13bo17boo12boo47boo$5b
+oobboo47bo14bo47boobboo$4bobo38boo12b3o8b3o12boo38bobo$4bo23boo16bo14b
+o8bo14bo16boo23bo$3boo23bo14b3o40b3o14bo23boo$29b3o11bo44bo11b3o$31bo
+68bo!
+ Thue generator.
+
+ The northwest glider stream represents
+ the number .1011101010111... where
+ the n'th bit is 1 for n odd and is the
+ complement of the (n/2)'th bit for n even.
+ This uses two p64-Herschel-guns (whom is 
+ it to credit?), Dean Hickerson's 7-engine 
+ Cordership, and David Bell's glider 
+ reflection from LOOP.
+
+ Helmut Postl, July 1997.
+ p64-gun updated September 2002.

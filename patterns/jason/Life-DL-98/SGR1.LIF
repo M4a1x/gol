@@ -1,0 +1,31 @@
+x = 88, y = 64
+53boo$53bo17boo$51bobo17bo$51boo19bo$71boo$80bo$78b3o$30boo45bo$30boo
+45boo$$68boo$68boo7$58boo$58bo$59b3o$42boo17bo$42bo18bobo$43b3o16boo$
+45bo$86boo$87bo$62boo18boobo$61bobo18booboo$61bo$60boo20booboo$83bobo$
+13boo68bobo$13boo65booboo$80bobo$49boo31bo$50bo31boo$50bobo$51bobo$31b
+o20bo3boo$30bobo23boo$30bobbo$31boo$16bo$17booboo$16boobboo$$bboo$bobo
+$bo$oo$75boo$75boo$69boo$11boo56boo$10bobo$10bo$9boo60boo$22boo40boo5b
+oo$22boo40boo3$24boo$24boo!
+Stable glider reflector #1
+
+For many years a stable glider reflector (SGR) was one of Life's "Holy Grails". On 
+15 Oct 1996 Paul Callahan constructed the historic first SGR. Since then various 
+Life workers have built a number of consecutively smaller SGRs. See for example 
+the pattern SGR2.LIF.The SGR shown here was constructed by Stephen Silver. It 
+uses another amazing discovery by Stephen, a 48-step r-pentomino to Herschel 
+conduit that consists only of a loaf. Stephen wrote the following header for his 
+SGR:
+
+> Stable reflector with recovery time of 623.
+> Initial reaction by Paul Callahan, Herschel conduits by Dave Buckingham, and
+> Herschel to 3 gliders reaction by Dean Hickerson. The periods smaller than 623 
+> which can also be used are those in the ranges 156-169, 208-254 and 312-508.
+> Stephen Silver, 1997 Oct 10.
+
+At the time of this writing (June 1998) Stephen's SGR is still the smallest (bounding 
+box 88 * 64 = 5632) and fastest SGR known.
+
+[Editor's note (Jan 2002): A smaller SGR was found by Dave Greene in 2001,
+ though it can only reflect gliders 180 degrees and not 90 degrees.]
+
+Stephen Silver, 10 Oct 1997, improved 3 Jun 1998

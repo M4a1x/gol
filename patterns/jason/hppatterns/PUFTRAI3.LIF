@@ -1,0 +1,43 @@
+#Life 1.06
+#D Puffer train.
+#D 
+#D This puffer train without the
+#D blocks is well known (see
+#D PUFTRAIN) and puffs with a
+#D period of 140. But adding the
+#D two blocks changes the behavior
+#D completely, the puffing period
+#D is now 200. See also PUFTRAI2.
+#D 
+#D Helmut Postl, December 1994.
+#N
+-10 -2
+-11 -2
+-10 -3
+-11 -3
+-1 9
+-2 8
+2 9
+1 9
+0 9
+2 8
+-2 -1
+-6 -2
+-7 -2
+-6 -3
+-7 -3
+-1 -5
+-2 -6
+-1 3
+-1 0
+2 7
+1 6
+0 2
+0 1
+0 0
+2 -5
+1 -5
+0 -5
+2 -6
+2 -7
+1 -8

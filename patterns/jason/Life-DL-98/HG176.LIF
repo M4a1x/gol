@@ -1,0 +1,28 @@
+x = 84, y = 85
+19boo6boo$19boo6boo7$3boo38boo$bbobo38bobo$bboboboo32boobobo$3bobobo
+32bobobo$5bo36bo$3bobbo13boo4boo13bobbo$6bo12bobo4bobo12bo$bbo3bo12bo
+8bo12bo3bo$bbo3bo12bobo4bobo12bo3bo$6bo13boo4boo13bo$3bobbo34bobbo$5bo
+36bo$3bobobo32bobobo$bboboboo32boobobo$bbobo6b3o29bobo$3boo4bob3o29boo
+$8bobobo$8bobbo$9boo$29boo$29bo$30b3o29boo$32bo29bo$22bo38boobb3o$21b
+3o37bo3bob3o3bo$20b5o36boobo4bobbobo$19bo4boo37bobo7boo$18boo3boo34bo
+4boboo$19boobboo34b3obo3bo$24bo21boo13b3obboo$23bobbo20bo18bo11b6o$24b
+obo19bo18boo10bo5bo$3boo20bo20boo35bo$4bo72bo4bo$b3o75boo$bo$20bo$19bo
+bo$19bobbo26boo$21bo27boo29boo$21boobboo53bobo$21boo3boo54bo$20boo4bo
+48boo5boo$21b5o49bo$22b3o51b3o$23bo54bo$13bo$13b3o51b7o$16bo49bob5obo$
+15boo52b3o$35boo28bobo5bobo$34bobbo27boo7boo$33bobobo27bo9bo$boo29b3ob
+o4boo18boobbobo5bobobboo$obo29b3o6bobo17bobbo11bobbo$oboboo32boobobo
+18boboboo5boobobo$bobobo32bobobo18boob5o3b5oboo$3bo36bo19bobbo3boo3boo
+3bobbo$bobbo34bobbo18bobobo9bobobo$4bo13boo4boo13bo22boboobo5boboobo$o
+3bo12bobo4bobo12bo3bo20bo3booboo3bo$o3bo12bo8bo12bo3bo20boo9boo$4bo12b
+obo4bobo12bo27b7o$bobbo13boo4boo13bobbo20bobobo5bobobo$3bo36bo20b3oboo
+boobooboob3o$bobobo32bobobo17bo5bobbobobbo5bo$oboboo32boobobo17boboobo
+bo3boboboobo$obo38bobo18boobobo5boboboo$boo38boo23bo7bo7$17boo6boo$17b
+oo6boo!
+Gliderless p176 HWSS gun
+
+A gliderless p176 Herschel factory feeds Herschels into a p4 Herschel to pi 
+converter. The pi's are then converted to HWSSs by Kok's galaxy and a  boat, a 
+device by David Buckingham and Bill Gosper. Compare also the pattern 
+BIRTHDAY.LIF.
+
+Dieter Leithner, 12 May 1998

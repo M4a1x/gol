@@ -1,0 +1,16 @@
+#C p2024 gun
+#C use smaller p4 to kill MWSS, same as previous p1012, DE 03/12/03
+x = 85, y = 58, rule = B3/S23
+17boo6boo$17boo6boo7$boo38boo$obo38bobo$oboboo32boobobo$bobobo32bobobo
+5boo5boo$3bo36bo7boo5boo$bboo13b3o4b3o13boo$b3o12bobbo4bobbo12b3o$b3o
+11bo12bo11b3o$b3o12bobbo4bobbo12b3o$b3o13b3o4b3o13b3o$bboo36boo$3bo36b
+o$bobobo32bobobo$oboboo32boobobo$obo38bobo$boo23b3o12boo$26booboo$26b
+oobobo$30boo15b3o5b3o$15boo13boo15b3o5b3o$16bo31boo5boo$13b3o34bo3bo$
+13bo13boo5boo12bobbobobbo$18boo6boboo4bobo10bo3bobo3bo$18boo6bo3bo5bo
+11bobbobobbo$27b3o6boo10b3o3b3o$28bo53boo$82boo$60bo3bo$59bobobobo8b4o
+$57boobbobobboo6bobboo4boo$35boo20boo7boo7bobboo3boo$32b3oboo19boobbob
+obboo7bobbo$32b5o22bobobobo10boo$33b3o24bo3bo$76boo$23boboo14bo33bobbo
+$21b3oboo13bo3boo12boo15bobboo3boo$20bo18bo5bo12boo14bobboo4boo$21b3ob
+oo10boobob3o29b4o$23bobo10boboo$23bobo10bo4b6o35boo$24bo12b5o4bo35boo$
+43b3o$37booboobo$37boobobo8bo$46b3oboobboo$46b4o4boo7bo$50boo12bo$62b
+3o!

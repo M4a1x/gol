@@ -1,0 +1,20 @@
+x = 119, y = 104
+59bo$59b3o$62bo$61boo29boo$92boo5boo$31boo66boo$32bo$31bo$31boo64boo$
+22boo73boo$22bobo78boo$23bo79boo3$34boo$34boo$obbo$4bo$o3bo16boo$b4o
+16bobo$22bo$$43boo$42bobo31boo29bo$42bo27boo5bo27b3o$41boo27bobob3o27b
+o$63boo7bobo29boo$9boo52boo7boo$4boobbobbo17boo$bobbo4bobo17bobo$obobo
+5bo20bo$bobboboo23boo$4bobbo78boo$5bo4bo76bo$6b5o76bobo$88boo$8bo$7bob
+obboo$8boo3bo91boo$10b3o75boo15boo$10bo76bobo$87bo$86boo$$28boo$28bobo
+$30bo74boo$30boo74bo$106bobo$107boo4$88boboo$20boo66boobo$20boo$97boo$
+11boobo82boo$11boboo3$27boobo$27boboo8$59bo$50boo5b3o$50boo4bo$56boo3$
+55boo$35boo13boo3boo42boo$35boo13boo47boo4$69bo$11boo54b3o13boo$11boo
+53bo17bo$66boo15bo31bo$83boo28b3o$112bo$11boo99boo$11boo$25boo$25bobo$
+27bo48boo$17boo8boo47boo$18bo$15b3o21boo74boo$15bo23boo74bobo$117bo$
+117boo$79boo$59boo19bo$46boo11bobo17bo25boo3boo$46boo13bo17boo24boo3b
+oo$61boo!
+Stable LWSS to glider converter
+
+For the inverse reaction, a stable glider to LWSS converter, see the pattern 
+G-LWSS.LIF.
+
+Dieter Leithner, 9 Aug 1997

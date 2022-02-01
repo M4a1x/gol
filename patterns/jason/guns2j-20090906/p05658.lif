@@ -1,0 +1,13 @@
+#Cp5658 gun
+#CKarel Suhajda, 2 Feb 2004
+x = 71, y = 61, rule = B3/S23
+15bo$$17boo$16bobo23bo$16bobo21b3o17bo$39bo5bo12b3o$16bo21bob6o11bo$
+16bobboo17bobo16boo$15bo21boobbobboo$16bobobobo16boobbobo$9boo11bo16bo
+bo$40bo$7bobo$7bo$bb3o4bo$bbo21bo$3booboobo13bobooboo22bo$8bo21bo21bo$
+23bo4b3o$25bo$23bobo18bo$44bo$10bo11boo19boboo11bo$10bobobobo41boo$17b
+o25b3o9booboo$12boobbo38bobbo$16bo39boo$44b3o$14bobo27boo$14bobo$14boo
+$$boo$boo30bo12boo$31b3o12boo$13bobobboo10bo10boo23boo$oo10bo3bob3o10b
+o9boo21boobbo$oo11bo6boo8boo30boo4bo$14b5obo41boobo3boo$17b3o47bobo$
+62b6obo$17b3o42bo5bo$14b5obo8bobo33b3o$oo11bo6boo8boo22boo9bo$oo10bo3b
+ob3o9bo23bo$13bobobboo3boobo28b3o$23boob3o28bo$boo26bo$boo20boob3o$21b
+obbobo$21boo7$45boo$45bobo11bo$26boobo17bo12bo$26boboo17boo9b3o!

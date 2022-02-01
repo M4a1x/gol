@@ -1,0 +1,30 @@
+x = 121, y = 104
+50b4o$49b6o$49b4oboo$53boo$59bobbo$63bo$51bo7bo3bo$60b4o$51boobb3o$21b
+o29boobb3o$21boo28boobb3o$21bo13bo24b4o$26b3o6boo22bo3bo$22b3obobo7bob
+o6bo17bo$24bob3o9boo4boo6boo5bobbo$22bobbo7bo3boo4bo6bo4bo$22bobbo18bo
+11bo$14boo6boobo24bo5bo5boo$12booboo4b3obo25b6o3bo4bo$12b4o5bobbo41bo$
+13boo7b3o35bo5bo$23bo37b6o$$73boo$71booboo$60bo6bo3b4o$59bo8bo3boo$59b
+obo4bobbo$28bobo14boo12bo8bo3boo$28boo13b5o12bobo4bo3b4o$29bo7bobo6b3o
+13bo8booboo$9bo27bobo3boo3boo13bo9boo$10boo26bo9b3o$9boo20bo15b3o$30bo
+bbo13bo18boo$62b4oboo$31boo29b6o$63b4o$31boo$34bo$9b6o16bobo24boo$8bo
+5bo17bo24b4o$14bo42booboo$8bo4bo45boo$10boo$54boo$53b3o$52bobboo$52boo
+boo$22boo32boo$21bobo26bo3bobo21bo$21boo27bo3bo22b3o$50bobbob3o18bobob
+o$50boo4bobo17bobo29b4o$51bo3bobo16b6obbo24b6o$55b3o15bobbo30b4oboo$
+56bo15b3obboobboo9bo18boo$74bo3bo13b3o$76boo15b3o$88boo3boo13bo9boo$
+19boo22boo22boo22b3o13bo8booboo$19bobo21bobo21bobo18b5o12bobo4bo3b4o$
+20boo22boo22boo20boo12bo8bo3boo$104bobo4bobbo$104bo8bo3boo$71bo33bo6bo
+3b4o$69boo45booboo$55boo13boo46boo$52b3oboo$52b5o15bobbo10b4o16b6o$53b
+3o20bo8bo3bo15bo5bo$65bobbo3bo3bo12bo21bo$21boo46bo3b4o8bobbo16bo4bo$
+21boo19boo13bo7bo3bo37boo$44b3o8b3o3bo4b4o$44bobo8boo5boo$46boo6bo6b3o
+$44bobo8boo5boo$40boo3bo9b3o3bo4b4o$6boo32boo15bo7bo3bo$5bobo61bo$7bo
+57bobbo$56b5o$55bo4bo$60bo$b4o50bo3bo$o3bo38boo12bo$4bo34b4oboo$obbo
+18bo16b6o$20bo3bo9b3o3b4o$19bo13boboo12boo$18bo5bo7booboo11b4o$18bo3b
+oo9boo13booboo$18bo3bo11bo4b3oboo5boo$19bo18boo5bo$20b3o14bo7boo$37bob
+o5bo$38bo4boo5boo$48booboo$39boo7b4o$37bo4bo6boo$43bo$37bo5bo$38b6o!
+p48 breeder #2
+
+The pattern shown here is another p48 breeder, a pattern exhibiting quadratic 
+population growth. It is smaller than the similar pattern BREEDER1.LIF. For 
+a different method to achieve quadratic growth see the pattern RAKE_GUN.LIF.
+
+Dieter Leithner, 19 Jun 1992

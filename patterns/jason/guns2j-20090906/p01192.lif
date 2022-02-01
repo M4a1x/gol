@@ -1,0 +1,17 @@
+#C p1192 gun based on David Bell's doubling of a blinker-keeper
+#C p1160+8N, N=4:  Dave Greene, 2 December 2005
+x = 113, y = 82, rule = B3/S23
+80bo$77bo$$75b3obo$65bo8boboo$65b3o6boobo$55boo11bo3bob3o$53boboo10boo
+$43bo8bo21bo$43b3o9bo14bo$46bo4boobo14bobo$45boo4boo12boobboo$65boo$
+48bo$47bobo$43boobboo$43boo$11bo$10b3o$9b3obo62bo$10bo3bo8bo53bo$11bo
+3bo5b3o51b3o$12bob3o3bo$13b3o4boo$14bo$18bo52bo$17bobo25boo22b3o$18boo
+bboo22bo21bo$22boo22bobo19boo$47boo$4boo5boo64boo$5bo5boo27bo36boo$5bo
+bo31bobo$6boo31bobo$10boo25b3oboo$9bobo24bo$10bo26b3oboo$39boboo$6boo
+78boo12boo5boo$4boboo78boo12boo5bo$3bo101bobo$6bo98boo$bboobo32boo61b
+oo$bboo34boo61bobo$55bo27boobo15bo$o17boo35bo27boob3o16b3o$18boobboo
+31bo33bo14bo$22bobo58boob3o15bo3bo$23bo3bo56bobo17bobbobo$26boo56bobo
+19bobobbo$20boo3boboo18boo36bo21bo3bo$21bobb3obbo17boo62bo$18b3o5bobob
+o77b3o$18bo8bobobo24boo$28bobb3o23bo54bo$29boobo21b3o$30boo22bo$30bo8$
+81boo$77boobboo$76bobo$77bo$59boo$55boobboo11b3o4boo$54bobo15b3o4bo$
+55bo16b3o5b3o$69b3o10bo$51boo4boo10b3o$49boboo4bo11b3o$48bo9b3o$51bo8b
+o$47boobo$47boo56bo$106bo$104b3o!

@@ -1,0 +1,16 @@
+x = 82, y = 65, rule = S23/B3
+26b3o11b3o$26bobbo10bobbo$26bo6b3o4bo$26bo5bobbo4bo$27bobobboobo5bobo
+4$32bo8bo$32bobo5b3o$40boboo$33bobbo4b3o$34b3o4boo$35bo$bboo$b4o4b4o$
+ooboo4bo3bo$boo6bo$10bobbo10b3o$24bobbo$24bo$11boo11bo$3boo7bo12bobo$
+bboo5bobbo$3boo4b3o$4bo3boo3$bboo$b4o$ooboo15boo$boo16b4o38boo$18boob
+oo36booboo$19boo38b4o16boo$60boo15booboo$77b4o$78boo3$72boo3bo$70b3o4b
+oo$69bobbo5boo$54bobo12bo7boo$57bo11boo$57bo$54bobbo$55b3o10bobbo$72bo
+6boo$68bo3bo4booboo$69b4o4b4o$78boo$46bo$39boo4b3o$38b3o4bobbo$38boobo
+$39b3o5bobo$40bo8bo4$38bobo5boboobbobo$41bo4bobbo5bo$41bo4b3o6bo$38bo
+bbo10bobbo$39b3o11b3o!
+ Thue-like generator.
+
+ 2x glider reflection,
+ Chaos (& 2x LWSS).
+
+ Helmut Postl, January 1997.

@@ -1,0 +1,17 @@
+#C p1688 gun - Scot Ellison – April 28, 2003
+#C based on Karel Suhajda's p844
+x = 122, y = 69, rule = B3/S23
+30bo49bo20bo$28b3o20boo6boo17b3o11bo7bobo$bboo23bo23bobbo4boo16bo14b3o
+6bo$3bo23boo19booboboo22boo16bo16bo$3bobo41bobobo42boo14b3o$4boobboo
+37bo3boboo54bo$8boo35b3obbobboo54boo$44bo5boo$31boo11boo57bo3bo$31boo
+69boo$87boo12bobboo8boo$87boo25bo$106bo5bobo$106bo5boo$105bo$$99boo$bb
+oo52boo32boo6bobo$bobo16boo34boo11boo20bo6bo$bo18bobo46bo20bo6boo$oo
+20bo47b3o17boo26boo$16boo4boo48bo45boo$16bobbo98boo$18boo32boo65bo$9b
+oo41bo65bobo$9boo20boo20b3o45boo14boobo$32bo22bo44bobo$29b3o68bo$oo27b
+o69boo17boo$bo116boo$o$oo5$121bo$119bobo$120boo$$19boo69bo$19bo68b3o$
+17bobo44bo22bo$17boo45b3o20boo20boo$67bo41boo$66boo32boo$100bobbo$47bo
+48boo4boo$28boo17b3o47bo20boo$21boo6bo20bo46bobo18bo$21bo6bo20boo11boo
+34boo16bobo$19bobo6boo32boo52boo$19boo3$6boo$5bobo$5bo25boo$4boo25boo$
+87boo$74boo11boo$68boo5bo$9boo54boobbobb3o35boo$10bo54boobo3bo37boobb
+oo$7b3o14boo42bobobo41bobo$7bo16bo16boo22booboboo19boo23bo$18bo6b3o14b
+o16boo4bobbo23bo23boo$17bobo7bo11b3o17boo6boo20b3o$18bo20bo49bo!

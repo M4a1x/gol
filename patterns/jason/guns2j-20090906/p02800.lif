@@ -1,0 +1,31 @@
+#C Added thrree of Dieter Leithner's p5 pulse dividers to an existing gun
+#C Scot Ellison   December 2002
+x = 114, y = 112, rule = B3/S23
+30bobo$29bobbo4bo$28boo5boo$20bo5boo3bo8boo$19bobo6boo10boo$18bo3bo6bo
+bbo60boo$19b3o8bobo60boo$17boo3boo$$93bo$92bobo$91bo3bo$11bo17bo61b5o$
+8b4o17b4o57boo3boo$7b4o19b4o57b5o$oo5bobbo7booboo7bobbo5boo51b3o$oo5b
+4o7booboo7b4o5boo52bo$8b4o6bo3bo6b4o$11bo7b3o7bo$82bo21bo$80bobo21bobo
+$79bobo23bobo$19b3o51boo3bobbo9bo3bo9bobbo3boo$73boo4bobo8bo5bo8bobo4b
+oo$80bobo21bobo$15boo7boo56bo21bo$15boo7boo66bobo$93bo$93bo$93bo$34boo
+57bo$34bo54bo7bo$32bobo53bo9bo$32boo54bo9bo$5boo13bo68bo7bo$5boo11boob
+oo14boo6bo47bo$18booboo14boo4b3o47bo$42bo35boo13bo$42boo35bo$79bobo$
+69boo9boo$18booboo46boo22bo13boo$5boo11booboo6bo22bo13bo8boo15b3o12boo
+$5boo13bo7bobo5b3o13b3o11b5o4boo14booboo$27boo6bo3bo15bo15bo18b3ob3o$
+27boobbobbo5bo13boo10boobboo18b3ob3o$28boboo3bo3bo26bo23b3ob3o$28bo3bo
+3b3o25bobo11boo10b3ob3o$30bobo31boo11bo3boo8booboo$31bo45bo4boo8b3o12b
+oo$77booboboo9bo13boo$15boo7boo9boo14bo26bob3obo$15boo7boo9bo16boo26b
+oo3bo$36b3o12boo27boobbo$38bo26bo15b3o9bo$19b3o43bobo25bo$65boo26bo$
+89bo7bo$57b3o17boo9bo9bo$11bo7b3o7bo48bo9bo9bo$8b4o6bo3bo6b4o30bo11b3o
+11bo7bo$oo5b4o7booboo7b4o29bo11bo17bo$oo5bobbo7booboo7bobbo5boo22bo29b
+o$7b4o19b4o5boo52bo$8b4o17b4o26b3o31bo$11bo17bo13boo47bobo$43boo37bo
+21bo$80bobo21bobo$27boobbo41boo4bobo8bo5bo8bobo4boo$27bobbobo40boo3bo
+bbo9bo3bo9bobbo3boo$17boo3boo4bobobo46bobo23bobo$19b3o5booboboo46bobo
+21bobo$18bo3bo3bo3bobbo48bo21bo$19bobo3bob3obbo$20bo4bo3boobbo$26b4obb
+o60bo$17boo11bobbo4boo21boo29b3o$18bo5b5oboboo4boo21boo28b5o$15b3o6bo
+bbobbobo57boo3boo$15bo13bobbo41boo15b5o$30boo41bobbo14bo3bo$46boo25bob
+obbobbo10bobo$46bo25boobob5o11bo$47b3o22bobbo$49bo23bobb4o$72bobboo3bo
+12boo$36boo35bobb3obo12boo$37bo5boo21boo4bobbo3bo$34b3o6boo21boo4boobo
+boo$34bo38bobobo$30boo41bobobbo$29bobbo41bobboo$24bobbobbobo25boo$24b
+5oboboo25bo$30bobbo22b3o$26b4obbo23bo$25bo3boobbo$25bob3obbo35boo$26bo
+3bobbo4boo28bo$27booboboo4boo29b3o$28bobobo38bo$27bobbobo$27boobbo$46b
+oo$46bo$47b3o$49bo$$36boo$37bo24bo$34b3o26bo$34bo26b3o!

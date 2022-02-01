@@ -1,0 +1,29 @@
+#Cp05790 - Four queen bee thinners and a p6 reflector added to the p1158.
+#CScot Ellison   March 2003
+x = 142, y = 112, rule = B3/S23
+118bo$116b3o$115bo$115boo$98boo19boo$80boo17bo19boo$81bo17bobo$68bo11b
+o19boo$68b3o9boo39bo$71bo48bobo$58boo10boo49bo$59bo62b3o$59bobo62bo$
+60boo$83boo$41bo41boo$41b3o6boo$44bo5boo69boo$43boo76boo$$32bo$32b3o9b
+oo$35bo8boo3boo$34boo13boo23boo62boo$74bo63bo$75b3o58bobo$77bo54boobb
+oo$31bo37bobo60boo$19bo11b3o34bobbo$17b3o14bo24boo6boo10boo28boo$bo14b
+o16boo24boo4boo3bo8boo23boo3boo$b3o12boo49boo5boo28boo$4bo63bobbo4bo$
+3boo64bobo$103boo$104bo5boo$4boo95b3o6boo$4boo17boo39boo5boo18bobo7bo$
+23boo40bo5boo17bobbo44boo$65bobo21boo29boo16bobo$66boo13boo4boo3bo26bo
+bo18bo$70boo9boo6boo28bo20boo$69bobo18bobbo6boo16boo4boo$37boo31bo20bo
+bo6bobo20bobo$20boo14bobo63bo20bo$20bo15bo65boo18boo7boo$21b3o11boo94b
+oo$23bo$17boo49booboo22boo$17bo48b3obob3o20bo44boo$18b3o44bo4bo4bo17bo
+bo24boo18bo$20bo44boboobboobobo16boo25bo20bo$66bobboo3bobo41bobo19boo$
+67boobbooboboo40boo$69bo4bobobbo$69b4oboobboo$73bo$71bobo$71boo$oo$o
+46boo72bo$bo44bobo72b3o$oo44bo41bo35bo$45boo40b3o33boo$86bobboo27bo$9b
+oo74boo31b3o$9boo7boo65bo35bo$18bo65bo13boo20boo$16bobo66b3o10boo$16b
+oo4boo62boboobo$oo20bo22boo40b3o$bo18bobo23bo41bobbo$bobo16boo21b3o43b
+oo$bboo39bo45boo26boo$40bo76boo17boo$30boo6b3o46b3o46boo$30boo5bo48bo$
+37boo47bo3boo$90boo45boo$87bo49bo$36boo50bobbo6boo8bo15boo12b3o$31boo
+3boo50b3o7bo10bo15bo14bo$31boo66b3o5b3o12b3o$101bo20bo$8boo$4boobboo
+54bo39boo$3bobo44bo13b3o37boo3bo$3bo44b3o16bo40bobo$bboo43bo18boo23boo
+16bobo$47boo42boo3boo13bo$96boo13boo3$19boo76boo15bo$19boo69boo5bo15b
+oo$90boo6b3o11boo4boo$57boo41bo10b3o4boobboo$57boo53boo4boobboo$80boo
+21boo8boo$17bo62bobo19bobo9bo$17b3o62bo19bo$20bo49boo10boo17boo17bo$
+19bobo48bo49b4o$20bo39boo9b3o36boo9b4o$40boo19bo11bo36boo9bobbo5boo$
+40bobo17bo54bo5b4o5boo$21boo19bo17boo53bo4b4o$21boo19boo76bo20bo$25boo
+112bobo$26bo113boo$23b3o$23bo!

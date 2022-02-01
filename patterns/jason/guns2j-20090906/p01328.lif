@@ -1,0 +1,18 @@
+#C p1328 gun based on doubled p544+8N Herschel factory --
+#C p1088+16N gun, N=15: Dave Greene, 1 November 2005
+#C
+x = 105, y = 92, rule = B3/S23
+76boo$76boo$24b3o$24b3o$24b3o10bo$27b3o5b3o$27b3o4bo$27b3o4boo$$32bo
+58boo$31bobo57boo$32boobboo$36boo3$16bo$16b3o$19bo$18boo$$33bo$31bobbo
+36boo$20bo10bobbo37bo$19bobo10bo36b3o$19bobo47bo$14boo4bo$o12bobo15boo
+$3bo9bo17bobo58boo5boo$bbobo7boo19bo14boo42boo5bo$bo3bo27boo9boobboo
+47bobo$bbo3bo36bobo51boo$3bo3bo36bo48boo$4bo3bo31bo40boo10bobo$5bobo
+31bobo4boo33boo11bo$6bo31bo3bo3bo51bo$10bo11boo13bo3bo5b3o$9bobo10boo
+12bo3bo8bo46bob3o$10boo23bo3bo58boobo$6boo28bobo59boboo$5bobo29bo32boo
+27b3obo$5bo5boo58bo19boo$4boo5boo58bobo17bo9bo$72boo15bobo12bo$84bo4b
+oo$83bobo$34boo47bobo$34bo36b3o10bo$32bobo14bo20b3o$32boo$47b3obo$37bo
+8boboo35boo$37b3o6boobo35bo$40bo3bob3o37b3o$39boo47bo$46bo$42bo$41bobo
+$37boobboo$37boo$$14boo15boo$13bobo15boo$13bo$12boo32bo$47bo$45b3o4$
+19bo$19b3o$22bo$21boo$$49boo$49boobboo$53bobo$54bobboo$42boo$15boo25bo
+8boobbo3bo$16bo23bobo9bobbo4bo$16bobo21boo7b3o5bobobo$17boo11boo17bo8b
+obobo$30boo27bo4bo$60bo3bo$$61boo3$43bo$44bo$42b3o!

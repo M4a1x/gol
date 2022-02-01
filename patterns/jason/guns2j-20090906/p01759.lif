@@ -1,0 +1,27 @@
+#C p1759 gun (prime period)  Dave Greene  20 August 2003
+x = 219, y = 123, rule = B3/S23
+117bo$116bobo$117bo3$122boo$97boo23boo$98bo31boo$98bobo29bo$99boo27bob
+o$122boo4boo$122boo$$88boo$89bo40boo$89bobo39bo$90boo34boobo$126booboo
+$108boo$108boo16booboo$127bobo$127bobo$128bo8$101boo$101boo4$101boo$
+101boo39bo$140b3o$107boo17bo12bo$107bo7boo7b3o12boo$105bobo8bo6bo$105b
+oo9bobo4boo34bo$117boo38b3o$156bo$63boo78boo11boo$63boo78boo$177bo$27b
+oo138boo6b3o$27bo139boo5bo$25bobo52boo92boo$3boo19bobo54bo$4bo15boo3bo
+20bo31b3o$4bobo13boo23bobo30bo94boo$5boobboo33bobbo120boo3boo$9boo34b
+oo41boo78boo$88boo$56boo$56boo$129boo48bo7bo$129bo47b3o5b3o11bo$123boo
+bo3b3o43bo7bo14b3o$123boob4obbo10boo31boo6boo16bo14bo$129bo14bo56boo
+12b3o$119boobboob3o12b3o70bo$69boo22boo16boo6bo4bobo14bo62boo8boo$3boo
+64boo23bo17bo7b4obbo70bobo$bbobo16boo42boo24b3o15b3o12boo73bo$bbo18bob
+o41bobo23bo17bo12boo89boo$boo20bo43bo55bo71bo3boo12boo$17boo4boo42boo
+53bo72boboboo$17bobo34boo66boo74bo$19bo34boo$10boo7boo$10boo$52boo126b
+oo$52boo126bobo14boo$130boo50bo15bo$130boo5boo43boo11b3o$137boo56bo$
+101boo97boo$oo100bo12boo84bo$bo87bo11bo14bo18boo61b3o$bobo85b3o9boo13b
+obo16boo61bo$bboo88bo24boo22boo$79boo10boo48boo$61boo17bo$62bo17bobo$
+21bo27bo11bo19boo135bo$19b3o27b3o9boo41boo110bobo$18bo33bo51boo111boo$
+18boo19boo10boo$24bo15bo$22b3o15bobo$21bo19boo$21boo41boo106boo$64boo
+106bo$114boo29bo27b3o32boo$95boo18bo27b3o30bo22boo7boo$95bo16b3o27bo
+32boo23bo$96b3o13bo29boo56bobo$24boo72bo49bo46boo4boo$5boo17boo120b3o
+47bo20boo$5boo67boo69bo50bobo18bo$55boo18bo69boo50boo16bobo$55bo16b3o
+140boo$4boo50b3o13bo$5bo52bo$bb3o12boo$bbo14bo16boo$18b3o14bo112boo$
+20bo11b3o94boo17boo$32bo96boo3$128boo$129bo79boo$126b3o12boo66boobboo$
+126bo14bo16boo53bobo$142b3o14bo30boo23bo$144bo11b3o25boo5bo23boo$156bo
+27bobob3o$177boo7bobo$177boo7boo!

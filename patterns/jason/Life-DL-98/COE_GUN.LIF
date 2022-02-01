@@ -1,0 +1,42 @@
+x = 133, y = 96
+33boo5boo5boo5boo66bobbo$33boo5boo5boo5boo56b3o7bo$73boo5boo16boo11bo
+4bo9bo$73boo5boo16boo10bo5bo8boo$111bo8bo$112boo8boo$$112boo8boo$111bo
+8bo$110bo5bo8boo$111bo4bo9bo$34bo5bo71b3o7bo$7boo5boo17b3o3b3o80bobbo$
+7boo5boo16boobbobobboo$31bob4ob4obo3boo5boo$33b3o3b3o4bobbo3bobbo56boo
+3bo$32b3o5b3o4bobbobobbo43bobo11b3oboboo4boo$50bobo20bo7bo17boo12b3o4b
+o4boo$48b3ob3o16booboo3booboo16bo15bo3bo$46b3o5b3o60b3o$46boo7boo17bob
+obobo$40bo5boo7boo15bo3bobo3bo34b3o$39bobo5bobooboobo16bobbooboobbo33b
+o3bo$38booboo4b3o3b3o17b3o3b3o31b3o4bo4boo$38booboo5bo5b3o17bo5bo32b3o
+boboo4boo$56boobo38boboo11boo3bo$7boo5boo23b3o14boob3o34b3oboo$6bobbo
+3bobbo16boo5bo21bo26bo5bo$9booboo19boo5bo15boob3o25boo7b3oboo$8bobobob
+o42bobo13boo5boo6boo8bobobbo$8bobobobo42bobo13boo5boo20boo$6bo9bo41bo$
+oo3bo11bo35bobo$bo52boo4bo44boo$bobo5booboo40bo3bo3bo45bo14bo$bboo3bo
+bbobobbo20b5o22bo18b5o9boo3boo6bo11bo3bob6o$7b3o3b3o19bo4bo17bo4bo17bo
+4bo11bobbo7bo10b3o3bo5bo$7bobo3bobo5boo17bo18b5o22bo8boob12o10bo5bo5bo
+$7b3o3b3o4boo13bo3bo41bo3bo9b3oboobboo15boboo3bo3bo$7bobooboobo6bo14bo
+45bo13bobo21b3o5bo$6boo7boo66boo13bo30boo$6boo7boo65b4o21boo19b4o$6b3o
+5b3o48boo15booboo18booboo18booboo$8b3ob3o50boo17boo19b4o21boo$10bobo
+93boo$7bobbobobbo16bo3boo33b3o$6bobbo3bobbo13boobob3o26bo6bo$7boo5boo
+14bo4b3o22bo3bo7bo22boo5boo$30bo3bo14bo10boo29boobboo5boobboo$31b3o15b
+3o7bobo29boo13boo$52bo$20boo9b3o15b3o$20boo8bo3bo14bo$30bo4b3o$30boobo
+b3o$32bo3boo$21bo5bo44b3o8boo11bo5bo$20b3o3b3o43bo10bobo9b3o3b3o$19boo
+bbobobboo43bo9bo10boobbobobboo$19booboobooboo18boo43bob4ob4obo$7boo5b
+oo6booboo22boo44b3o3b3o$7boo5boo4bobo3bobo19bo45b3o5b3o$19bobbo3bobbo$
+22bo3bo$19bobo5bobo100boo$20bo7bo100bobo$96bo3bo$84boo9boboobobo$84bob
+o7bo3bo4boo15b4o8bo$84bo9bo10bo14boboo7boo$37bo58bobo3bobo15bo$37boo
+59bo3b3obboo12boo$36bobo56boo10boo$121boo$120bo$106boo12boboo7boo$22b
+ooboo79boo12b4o8bo$boo20bobo$boo20bobo$24bo70b3o31bobo$95bo28bobbobboo
+$oo6b3o85bo17b3o7bo$oo6bo3bo12boo86bo4bo9bo$8bo4bo12boo7bo57bo18bo5bo
+8boo$9bo3bo11bo9boo8boo46boo18bo8bo$36boo7boo33boo9bob3o18boo8boo$9bo
+3bo17boobboo43boo13boo$8bo4bo80boo18boo8boo$oo6bo3bo81bo18bo8bo$oo6b3o
+101bo5bo8boo$31boobboo57bo18bo4bo9bo$36boo7boo47boo18b3o7bo$boo32boo8b
+oo33boo13boo27bobbo$boo32bo44boo9bob3o$93boo$93bo!
+p46 gun for Tim Coe's spaceship
+
+Every 46 generations this gun assembles and fires a copy of Tim Coe's clean p16 
+puffer/spaceship. After its initial construction the gun was made smaller twice:
+
+- by various improvements including David Bell's double blocks
+- by Stephen Silver's warped eater2 in the squared p46 glider gun at upper right.
+
+Dieter Leithner, 25 Nov 1995, improved 16 Nov 1996 and 3 Jun 1998

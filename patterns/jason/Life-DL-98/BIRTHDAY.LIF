@@ -1,0 +1,52 @@
+x = 146, y = 87
+20boo6boo$20boo6boo$118boo6boo$118boo6boo5$4boo38boo$3bobo38bobo$3bobo
+boo32boobobo55boo38boo$4bobobo32bobobo55bobo38bobo$6bo36bo57boboboo32b
+oobobo$5bobbo32bobbo57bobobo32bobobo$5bo16bo4bo16bo59bo36bo$5bo3bo12b
+6o12bo3bo37b4o17bobbo32bobbo$5bo3bo12bo4bo12bo3bo33boobo4bo16bo16bo4bo
+16bo$5bo38bo32bo3bo4bo16bo3bo12b6o12bo3bo$5bobbo32bobbo32bo4boo19bo3bo
+12bo4bo12bo3bo$6bo36bo33bobbo4boo16bo38bo$4bobobo32bobobo31bobbo3bobbo
+15bobbo32bobbo$3boboboo3boo27boobobo31boo4bobbo16bo36bo$3bobo5b3o30bob
+o34boo4bo14bobobo32bobobo$4boo4boboo30boo32bo4bo3bo13boboboo3boo27boob
+obo$9bobo66bo4boboo14bobo5b3o30bobo$9bobbo66b4o19boo4boboo30boo$10boo
+95bobo$30boo75bobbo$30bo52bo24boo$31b3o48bobo43boo$33bo48boo44bo$129b
+3o$131bo5$47boo$bboo44bo$bobo43bo46boo$bo45boo45boo$oo4$144boo$50boo
+45boo45bo$50boo46bo43bobo$97bo44boo$97boo5$14bo$14b3o$17bo44boo48bo$
+16boo43bobo48b3o$36boo24bo52bo$35bobbo75boo$36bobo95boo$bboo30boobo4b
+oo19b4o66bobbo$bobo30b3o5bobo14boobo4bo66bobo$boboboo27boo3boobobo13bo
+3bo4bo32boo30boobo4boo$bbobobo32bobobo14bo4boo34bobo30b3o5bobo$4bo36bo
+16bobbo4boo31boboboo27boo3boobobo$3bobbo32bobbo15bobbo3bobbo31bobobo
+32bobobo$3bo38bo16boo4bobbo33bo36bo$3bo3bo12bo4bo12bo3bo19boo4bo32bobb
+o32bobbo$3bo3bo12b6o12bo3bo16bo4bo3bo32bo38bo$3bo16bo4bo16bo16bo4boboo
+33bo3bo12bo4bo12bo3bo$3bobbo32bobbo17b4o37bo3bo12b6o12bo3bo$4bo36bo59b
+o16bo4bo16bo$bbobobo32bobobo57bobbo32bobbo$boboboo32boobobo57bo36bo$bo
+bo38bobo55bobobo32bobobo$bboo38boo55boboboo32boobobo$99bobo38bobo$100b
+oo38boo5$18boo6boo$18boo6boo$116boo6boo$116boo6boo!
+Gliderless p176 HWSS gun, a birthday present for David Buckingham
+
+The gun uses two copies of a gliderless Herschel factory each of which 
+consists of two modified copies of Buckingham's p44 oscillator (1992). 
+Every 176 generations the colliding exhausts from the two p44 engines 
+create a B-heptomino which is quickly guided out of the Herschel factory's 
+interior by Buckingham's elegant B-heptomino to Herschel conduit, a block 
+and a snake. Two Herschels then react to produce two pi-heptominos, each 
+of which is transformed into a HWSS assisted by a galaxy and a boat, a 
+beautiful device, found in its original form (with a figure 8) by David 
+Buckingham (before 1990).
+
+The following persons also have contributed to this birthday present:
+
+- Jan Kok (1971):                     Kok's galaxy, used in DJB's pi-to-HWSS
+                                                transformation together with a p8 figure 8
+- Bob Wainwright (1980):         p4 heavyweight emulator, stabilizes the ends
+                                                of DJB's p44 oscillator
+- Achim Flammenkamp (1988): p4 mold, used here to modify the explosive
+                                                exhaust of DJB's p44 oscillator
+- Dean Hickerson (1990):        also found the p4 mold (with his Apple IIe
+                                                search program) and made it known
+- Noam Elkies (1996):              simplified version of the p44 oscillator
+                                                (without blocks near the HW emulators)
+- Bill Gosper (1996):                 use of a boat instead of the figure 8 in DJB's
+                                                pi-to-HWSS transformation
+
+My thanks to Dean Hickerson for helping me to compile the above credits.
+Dieter Leithner, constructed 27 Dec 1996, posted 10 Feb 1997

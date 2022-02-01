@@ -1,0 +1,23 @@
+#Cp1370 based on Karel Suhajda's p137.   Scot Ellison - May 14, 2003
+x = 201, y = 74, rule = B3/S23
+166boboo$166boobo27boo$197bo$20bo60boo14bo15bo9bo71bobo$20b3o33boo24bo
+14b3o13b3o5b3o29bo37boobboo$7boo3boo9bo14boo17bo13boo6b3o18bo15bo3bo
+13boo17b3o35boo$7boo3boo8boo15bo17bobo11boo6bo19boo14boo3boo13bo20bo$
+38bo19boo74bo20boo11boo$38boo94boo32boo$oo$bo$bobo$bboo$89boo$41boo46b
+oo46boo$41boo94boo$197boo$179boo16bobo$178bobo18bo$5boo164boobo3bo20b
+oo$6bo79boo83boob3obo4boo$3b3o28boo50bo19boo69bo3bobbo$3bo31bo15boo14b
+oo3boo13bo17bobo11boo6bo19boo22boob3o4boo$34bo17bo15bo3bo13boo17bo13b
+oo6b3o18bo16boo5bobo15boo$34boo13b3o13b3o5b3o28boo24bo14b3o17boo5bobo
+15boo$49bo15bo9bo53boo14bo27bo$$199boo$199bo$18boo180bo$18boo179boo$9b
+oo62boo$8bobo62boo$8bo$7boo77boo$86bo$84bobo$84boo$$180boo$89boo90bo$
+89boo7bo9bo27bo44bobo$96b3o8bobo5boo17b3o45boo$95bo11bobo5boo16bo$95b
+oo8b3oboo22boo$104bo$103bob3oboo42bo$103bo3boboo40b3o17boo$62boo37bobo
+46bo20bo6boo$38bo23bo38boo34boo11boo20bo6bo$20boo15bobo5boo13bobo74boo
+32boo6bobo$20boo15bobo5boo12bobo118boo$29boo4b3oboo14boo3bo$19bo7bobbo
+3bo20boo$18b3o6boo4bob3oboo152boo$11boo4bobboo11bo3boboo152bobo$12bo
+18bobo134boo25bo$12bobo16boo34boo99boo25boo$13boo52boo43boo$112boo11b
+oo$18bobobo102bo5boo$15bobbobo58boo8boo35b3obbobboo54boo$15boo62bo5boo
+bboo37bo3boboo54bo$80b3obobo41bobobo42boo14b3o$82bobo23boo19booboboo
+22boo16bo16bo$77boo4boo23bo23bobbo4boo16bo14b3o6bo$42boo27boo4bobo29b
+3o20boo6boo17b3o11bo7bobo$42boo11boo14boo6bo31bo49bo20bo$55bo23boo$19b
+oo35b3o$15boobboo37bo$14bobo22bo$14bo25bo$13boo23b3o!

@@ -1,4 +1,5 @@
 Conway's Game of Life in Rust
+
 =============================
 
 Goal
@@ -41,11 +42,13 @@ About the Game
 
 Patterns
 --------
-Example patterns and interesting objects can be found in the `patterns` subdirectory. I am planning to add any patterns there that I can find. Feel free to point me to missing ones!
+Example patterns and interesting objects can be found in the `patterns` subdirectory. I am planning to add any patterns there that I can find. Feel free to point me to missing ones! If I missed any attribution please contact me. Most files contain information about the author(s) and I try to mention previous collectors.
 
 Currently includes:
-* `patterns/lifep`: [lifep collection](http://www.ibiblio.org/lifepatterns/lifep.zip) by Alan Hensel, individual authors can be found in the files
-
+* `patterns/lifep`: [lifep collection](http://www.ibiblio.org/lifepatterns/lifep.zip) by Alan Hensel
+* `patterns/jason`: [All collections on this website](http://entropymine.com/jason/life/) by Jason Summers, Dietrich Leithner, Peter Rott, Paul Tooke, Helmut Postl
+* `patterns/golly`: [Taken from the Golly 4.1 source distribution](https://sourceforge.net/projects/golly/files/golly/golly-4.1/)
+* `patterns/conwaylife-wiki`: [Collection of all patterns used in the cowaylife.com wiki](https://conwaylife.com/wiki/Main_Page)
 
 ToDo
 ----

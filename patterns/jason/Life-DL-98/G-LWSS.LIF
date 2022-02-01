@@ -1,0 +1,31 @@
+x = 166, y = 127
+26bo$24b3o38bo$23bo41b3o$23boo16bo26bo22bo20bo$39b3o25boo20b3o11bo7bob
+o$38bo49bo14b3o6bo$38boo48boo16bo16bo$105boo14b3o$58bo61bo$14boo40b3o
+61boo$14boo39bo$42boo11boo$42boo$98boo25boo$11boo85boo25bo$11boo110bob
+o$123boo3$110boo$67boo32boo6bobo$31boo34boo11boo20bo6bo$31bobo46bo20bo
+6boo$33bo47b3o17boo$33boo48bo$$27boo34boo$26bobo34bo$27bo14boo20b3o45b
+oo$43bo22bo44bobo$40b3o68bo$40bo69boo5$5boo$5boo6$4boo$4boo25boo103boo
+$31bo104bobo$32b3o85boo16bo$34bo85boo16boo$34bobo$35bobo73boobo$36bo3b
+oo69boboo$40boo54bo32boo$56bo37b3o32bo$5boo47b3o13bo22bo33bobo$4bobo
+46bo16b3o20boo32boo$4bo23boo23boo18bo$3boo23boo42boo38bo$112b3o$8boo
+93bo11bo$ooboobbobbo92b3o8boo14bo$oobo4bobo95bo22bobo$3bo5bo95boo23bo$
+ooboboo$oobobbo55boo$4bo4bo52boo$5b5o29boo$24boo12bobo$7bo16bobo11bo$
+6bobo17bo10boo10boo$7bo18boo22bo$28bo18b3o9boo32boo$26b3o18bo11bo20boo
+11boo23boo$25bo34bo20bo36bo$25boo32boo17b3o38b3o$78bo42bo$$97boo$98bo$
+95b3o$27boo66bo$27boo$3boo$bbobo$bbo$boo5$62bo$62b3o$38bo26bo22bo$36b
+3o25boo20b3o$35bo49bo$35boo48boo$158boo$55bo49bo52boo$53b3o47b3o17boo
+39bo$52bo49bo20bo39bo$39boo11boo35boo11boo20bo38b3o$39boo48boo32boo$
+132boo$131bobo$132bo3$8boo21boo87boo$8boo21bobo86boo29boo$14boo17bo30b
+oo85boo$14boo17boo29boo11boo$77bo$78b3o$12boo66bo$12boo5boo$19boo39boo
+48boo$60bo49bo53boo$39boo20b3o25boo20b3o50boo$40bo22bo26bo22bo46boo$
+37b3o47b3o70bobo$37bo49bo74bo$162boo$149boo$149boo3$147boo$147boo!
+Stable glider to LWSS converter
+
+This device uses Paul Callahan's stable glider to Herschel converter and various 
+Herschel conduits. At the time of this writing (June 1998) this device is the smallest 
+of its kind.
+
+For the inverse reaction, a stable LWSS to glider converter, see the pattern 
+LWSS-G.LIF.
+
+Dieter Leithner, 9 Aug 1997

@@ -1,0 +1,22 @@
+x = 180, y = 138, rule = S23/B3
+32bobo$32bo3bo$16bo19bo$14b4o14bo4bo4boo$13boboboo4bo12bo5boo$8boobbo
+bbob3o5boobo3bo3bo$8boo3boboboo5b4obobbobo$14b4o6boobboo$16bo4$22boo$
+23bo10bobo$23bobo9boo$24boo9bo12$30boo$11boo17bo$11boo4bo13b3o$oo6boo
+6b5oboo9bo$oo5b3o5bobboo4bo$8boo5boo8bo$11boo4bo7bo$11boo12bo$24bo7boo
+$22boo8bobo$34bo$34boo11$89bo$88bobo$87boboo15boo$81boo3booboo14bobo$
+81boo4boboo13bo6boo$88bobo13bobbobbobboboo$89bo5bo8bo6boobboo$95bobo7b
+obo$95boo9boo5$88bo$87bo$87b3o6$80bo$80bobo$80boo3$69boo$69bobo$60b3ob
+oo4b3o12bo$60b4obbo4b3o8b4o4bo$64boo4b3o8b4o5bo$69bobo9bobbo9boo$69boo
+10b4o9boo$82b4o$85bo19$153boo$146b3o4boo$145b5o6boo10bo$144bobo3bo5b3o
+7bobo$144boo3bo6boo6boo$153boo9boo12boo$153boo9boo12boo$131boo33bobo$
+130boo24bo11bo$132bo23bobo$156boo4$139bo$138boo$138bobo5$155boo$146boo
+7bo$145boo9b3o$147bo10bo3$161bo$154boobo3b4o$148boobboobobo4b4o5boo$
+147bobobbooboboo3bobbo5boo$137boo7b3o8boo3b4o$137boo6b3o8boo3b4o$146b
+3o12bo$147bobo$148boo!
+ p30 XOR-Gate.
+
+ The two p30 glider streams A and B 
+ from NW and SE result in a glider
+ stream  A XOR B  in direction SW.
+
+ Helmut Postl, September 2002.

@@ -1,0 +1,19 @@
+#Cp05910 - Four queen bee thinners added to the p1182.
+#CScot Ellison   March 2003
+x = 138, y = 108, rule = B3/S23
+117bo$117b3o$120bo$119boo$105boo$105boo$$132boobo$99boo31boboo$99boo$
+103boo$103boo$$129booboo$129bo3bo$98boo30b3o$98boo28bobo$128boo3$109b
+oobbo$108boo$109boo$$109boobboo$108bo$111b4o$109bobbo4$118boo$118bobo$
+120bo$120boo$122bo$120b3o$119bo$119boo5$129bo$121boo4b3o$121boo3bo$97b
+oo27boo$96bobo$96bo$18bo50boo24boo$16b3o50boo34bo$15bo18boo70boo$15boo
+17bo68booboo23boo$35bo67boobo24boo$34boo67bobbo$43boo59boo$oboo38bobo
+77b5o$oobo39bo77bob3obo$69boo51bo3bo$68bobbo51b3o$31boo36boo53bo$31boo
+29boo68bo$bbooboo55boo67b3o$bbo3bo123b5o$3b3o118boo3boo3boo$5bobo116b
+oo$6boo$$131b3o$75boo54b3o$75boo$71boo$71bobo58boo$73bo35boo21boo$73b
+oo25boo7boo$60boo39bo20boo$43boo15boo39bobo18boo$43boo51boo4boo$81bo
+15bo20boo$58boo19b3o15bobo18bo$58boo18bo19boo16bobo$78boo36boo$69boo
+66bo$69bobo51bo6boo3bobo$70bo51b3o4bobbo3boo$43boo76b5o6bo$42bobbo74bo
+bobobo5bo$43boo36boo37boo3boo3bobo$50boo29boo47bobo$50boo79bo$123bo$
+122bobo$110boo10bobo3boo3boo$110boobboo7bo4bo5bo$114bobo6boo$116bo6boo
+4bo3bo$37boo77boo5boo5b3o$37boo$41boo$40bobo$40bo$39boo$52boo$52boo77b
+oo$82boo47boo$83bo$54boo24b3o$54boo24bo!

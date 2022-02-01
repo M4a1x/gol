@@ -1,0 +1,28 @@
+x = 125, y = 116
+62boo44boo$62boo44boo4$81boo6boo$81boo6boo$61b3o44b3o$$61bobo44bobo$60b
+5o42b5o$59boo3boo40boo3boo$59boo3boo40boo3boo3$72boo24boo$72boo24boo$54b
+obo58bobo$52bo3bo5bobo16boo6boo16bobo5bo3bo$52bo11bo4bo6bobbo4bobbo4bobb
+o6bo4bo11bo$45boo4bo4bo3boo3boobbo6bobbo4bobbo4bobbo6bobboo3boo3bo4bo$
+45boo5bo11bo4bo6bobbo4bobbo4bobbo6bo4bo11bo$52bo3bo5bobo16boo6boo16bobo
+5bo3bo$54bobo58bobo$72boo24boo$72boo24boo$$121bo$59boo3boo11boo27boo3boo
+7b3o$59boo3boo10boboo26boo3boo7b3o$60b5o10boo4bobo23b5o$61bobo13bo5bo24b
+obo7boo3boo$80bo10boo25boo3boo$61b3o16boboo7bo16b3o$79bo12b3o$72boo5bobb
+oo10bo26bo$71bobo6boobbo35bobo$71bo9b4o3boo32boo$70boo11bo4boo32boo$62b
+oo44boo11b3o$48boo12boo44boo10bobo$49bo70boo$49bobo34boo$50boo34bobo$88b
+o$88boo$$67b3o$69bo4bobo$68bo5boo$75bo20$35boo$36bo$36bobo5bo$37boo4b4o$
+3boo37bo3bo$3boo10boo23boob3o15boo$15boo24bo19boo$35boobbo13boo$35boobbo
+bo11bo$40bo10bobo$15bo14bo20boo9bo$14bobo13b3o28bobo$13bo3bo15bo26bo3bo$
+14b3o15boo27b3o$12boo3boo40boo3boo$oo3boo$$bo3bo$bb3o30bo6bo$bb3o29b3o4b
+3o$25boo6boobbobbobboo6boo$25boo10bobbo10boo$6bo9bo15bo3boboobo3bo15bo9b
+o$4b4o7bo20b6o20bo7b4o$3boboboo10bo3bo6bo4boo4boo4bo6bo3bo10boobobo3boo$
+bbobbob3o10bobbo4b3o3boo6boo3b3o4bobbo10b3obobbobboo$3boboboo10bo3bo6bo
+4boo4boo4bo6bo3bo10boobobo$4b4o7bo20b6o20bo7b4o$6bo9bo15bo3boboobo3bo15b
+o9bo$25boo10bobbo10boo$25boo6boobbobbobboo6boo$34b3o4b3o$35bo6bo4$12boo
+3boo40boo3boo$14b3o44b3o$13bo3bo42bo3bo$14bobo17boo6boo17bobo$15bo18boo
+6boo18bo3$115bo$15boo44boo53bo$15boo44boo51b3o!
+A pseudo period 850 ( = 17 * 50 ) glider gun based on an Intermitting Glider 
+Gun (IMG) of type 3. This is a new type of IMG, a hybrid between type 1 and 
+type 2; i.e. the two facing guns act as normal guns, when they are not hit by 
+a glider and they act as a glider reflector, when they are hit by a glider. It is 
+quite lucky that this smallest of these IMGs is a (double) gun by itself and 
+does not require a third gun.

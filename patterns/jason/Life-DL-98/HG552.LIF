@@ -1,0 +1,29 @@
+x = 120, y = 89
+98boo$98bo$97boobb3o$97bo3bob3o3bo$97boobo4bobbobo$99bobo7boo$63bo31bo
+4boboo$63b3o29b3obo3bo$66bo15boo13b3obboo$65boo16bo18bo11b6o$82bo18boo
+10bo5bo$82boo35bo$113bo4bo$58boo55boo$57bobbo$56bobobo$56boboboo$54boo
+bo4bo22boo$54bobboboboo5bo16boo29boo$51boobobboo3bo4bobo46bobo$51bobb
+oobobboo6boo48bo$52boobbobobo50boo5boo$54b5obo50bo$54bo4bo52b3o$55b4o
+55bo$79boo$19boo5boo29boo20bo23b7o$19boo5boo29boo21b3o19bob5obo$82bo
+22b3o$101bobo5bobo$101boo7boo$101bo9bo$97boobbobo5bobobboo$97bobbo11bo
+bbo$98boboboo5boobobo$97boob5o3b5oboo$69boo25bobbo3boo3boo3bobbo$69boo
+26bobobo9bobobo$19b3o3b3o70boboobo5boboobo$18bo3bobo3bo47boboo20bo3boo
+boo3bo$17bo3booboo3bo29boo15boobo20boo9boo$17boboo5boobo30bo42b7o$19bo
+7bo32bobo36bobobo5bobobo$47boo12boo34b3obooboobooboob3o$48bo47bo5bobbo
+bobbo5bo$35bo11bo49boboobobo3boboboobo$35b3o9boo49boobobo5boboboo$38bo
+63bo7bo$19boo5boo9boo$22b3obbo$boo15bo5bo3bo40boo$boo15bo3boo4bo39b4o$
+12bo5bo3boo26boo16bo3bo$11bobbo4b3obbobbo22boo17b4o$oo8b5o4b3o3boo44bo
+$oo7boob3o5boobb3o44bobo$10boboo6b3obo47boo4boo$11boo8boo55bobo$80bo$
+11boo8boo45b3o9boo$10boboo6b3obo$oo7boob3o5boobb3o40bobobo$oo8b5o4b3o
+3boo38b3obob3o$11bobbo4b3obbobbo36bo5bo3bo$12bo5bo3boo24boo10boobobob
+oobboobo$boo15bo3boo4bo19bobo9booboboobboobbo$boo15bo5bo3bo21bo12bo4bo
+bboo$22b3obbo22boo11bobobobbo$19boo5boo9boo25boob4o$38bo27bo$35b3o28bo
+bo$35bo31boo3$19bo7bo$17boboo5boobo$17bo3booboo3bo$18bo3bobo3bo$19b3o
+3b3o8$15boo13boo$15boobboo5boobboo$19boo5boo!
+Gliderless p552 HWSS gun
+
+The gun uses a gliderless p138 Herschel factory, two p6 Herschel period doublers 
+based on Noam Elkies' p6 pipsquirt, a p4 Herschel to pi converter and Bill 
+Gosper's improvement of Dave Buckingham's pi to HWSS converter.
+
+Dieter Leithner, 10 Jan 1998

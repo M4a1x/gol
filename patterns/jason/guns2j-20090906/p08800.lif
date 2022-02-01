@@ -1,0 +1,19 @@
+#C Added two of Dieter Leithner's p5 pulse dividers to an existing gun
+#C Scot Ellison   December 2002
+x = 161, y = 103, rule = B3/S23
+53boo$53boo3$51boo$51boo$38boo$39bo$39bobo$40boo46bo15bo9bo27bo$36boo
+50b3o13b3o5b3o27b3o$36boo53bo15bo3bo13boo18bo$90boo14boo3boo13bo17boo$
+125bo$125boo$$157boobo$157boboo$49boo$49boo29boo$80boo46boo$128boo$
+154booboo$69bo84bo3bo$39boo27bobo84b3o$38bobo27boo83bobo$40bo36boo74b
+oo$77bo19boo$78bo17bobo11boo6bo$77boo17bo13boo6b3o$42boo51boo24bo$42b
+oo76boo4$39boo76boo$39bo24boo51boo$40b3o6boo13bo17boo$42bo6boo11bobo
+17bo$62boo19bo$6boo74boo$5bobo83boo$3b3o84bobo$bbo3bo84bo$bbooboo110b
+oo$31boo83bobbo$31boo46boo36boo$79boo29boo$110boo$oobo$oboo$$34boo$35b
+o$15boo17bo13boo3boo$15bo18boo13bo3bo69boo$16b3o27b3o5b3o66boo$18bo27b
+o9bo7bo54boo$59b3oboobboo50bobo$59b4o4boo52bo$63boo56boo$108boo$108boo
+3$106boo$106boo$94boo$94boo$108bo$107bobo$106bobobo$106bobobo$105boobo
+boo$105bobbo3bo$106bobb3obo$105bobboo3bo$106bobb4o$76boo21boo4bobbo$
+76boo21boo4boobob5o$63bo42bobobbobbo$62bobo41bobbo$61bobobo41boo$61bob
+obo25boo$60booboboo25bo$59bo3bobbo22b3o$58bob3obbo23bo$58bo3boobbo$59b
+4obbo35boo$63bobbo4boo28bo$57b5oboboo4boo29b3o$57bobbobbobo38bo$62bobb
+o$63boo$79boo$79bo$80b3o$82bo$$69boo$70bo24bo$67b3o26bo$67bo26b3o!

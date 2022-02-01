@@ -1,0 +1,17 @@
+#C p4920 gun made from David Eppstein's p2460 gun doubled with a p8 
+#C Scot Ellison 2/23/2003
+x = 73, y = 66, rule = B3/S23
+52boo$53bobboo$53bobobbo$52boob3oboboo$53boboboboobo$51bo$50bob3obob4o
+$50bo3booboo3bo$51b3ob3ob3o$53bo5bo$70boo$54bo3bo11bo$10bo22boo21bo11b
+obo$10b3o20boo33boo$13bo44boo$12boo44boo$33b3o$28boobboboo$28boobboo$
+32boo13boo$47boo$$63boo$63bobo$65bo$65boo3$38bo8boo$15bo20bobo6bobbo$
+6boo4bobboo18bobo7bo3bobboo$6boobb3obboo17bobbo8boobobb3o$10b3o4bo17bo
+bo9b3o4boobo$11bo3b3o18bobo15bobbo$10bobo25bo7bo7boobo$9bobbo32b3o4b3o
+6boo$9boobo32boo5boo7bobo$9bobboo34bo14bo$9bobboboo31bo15boo7bo$10b3ob
+oo54bobo$11b3o5bo51boo$18bobobboo7b3o32boo$21boboo6bo3bo4boo25b3o$3boo
+12bobbo9bo5bobbobo19boobbobbobo$bbobboo10b3o10bo5bo4bo19boobboobboo$bb
+o4boo24bo31boo$oo3boboo22bo3bo$bobo28b3o8bobboo$bob6o24bo9boobbo$bbo5b
+o24bo8b5o$3b3o27boo$5bo9boo16bobo$16bo25b5o$13b3o27boobbo$13bo29bobboo
+$27boobboo$24bo3bobboo$24b4o13boo9boo$40boo9bobo$24boo9bo6bo7b3o4boo$
+24boo8bobo12b3o4bobb4o$32boo3bo12b3o4boob3o$27boo3boo3bo13bobo$27boo3b
+oo3bo14boo$34bobo$35bo!

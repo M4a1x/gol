@@ -1,0 +1,15 @@
+#C p1072 bootstrapped Herschel factory gun
+#C p992+16N, N=5: Dave Greene, 20 Sep 2005
+x = 132, y = 74, rule = B3/S23
+7bo6boo31bo$7b3o4bobbobo30bo$10bo5boob3o27bobo$9boo11bo25bo3bo$16boob
+3o27bo3bo8bo$16boobo30bo3bo5b3o$51bo3bo3bo$52bobo4boo$5boo3boo41bo$5b
+oo3boo45bo$56bobo65boo$57boobboo47boo12boo$49bo11boo48bo$bo45b3o39boo
+20bobo$obo43bo43bo6boo13boo$bo44boo42bobo4boo$36boo47boo4boo$37bo47bob
+o$37bobo43bobob3o$38boo4boo33boobboo5bo39boo$43bobbo32boo8boo39boo$44b
+oo$18boo36boo$18boo36boo43boo$101boo$$130bo$129bobo$130bo$30boo$30boo$
+8boo32boo3boo$9bo34bobbo19boo24boo25boo$6b3o17boo13bo6b3o15bobo24boo
+24bobo$6bo19bobo13boo6bo15bo52bo$26bo38boo51boo11bo$129bobo$130boo3$
+15boo62boo17boo$16bo62boo17bobo$13b3o75boo7bo$13bo78bo7boo$21boo66b3o$
+21boobboo62bo$25bobo$26bo$30bo$23boo$24bo3bob3o$21b3o6boobo$21bo8boboo
+$31b3obo$$33bo6$55boo$51boobboo$50bobo$51bo$$46b3o4boo$46b3o4bo$46b3o
+5b3o$43b3o10bo$43b3o$43b3o$$41bo!
