@@ -1,196 +1,140 @@
 use std::io::{self, BufRead, BufReader, Read};
-use std::iter::Peekable;
 use std::str::FromStr;
 
-use crate::parser::{Cell, CellStatus, ParseError, Pattern, PatternConfig, Point, Rules, Size};
+use crate::parser::{Cell, CellStatus, Config, ParseError, Pattern, Point, Rules};
 
 pub fn parse(input: impl Read) -> Result<Pattern, ParseError> {
     let buf_reader = BufReader::new(input);
     let mut content_line_iter = buf_reader
         .lines()
-        .filter(|l| {
-            if let Ok(line) = l.as_ref() {
-                !line.is_empty()
-            } else {
-                false
-            }
-        })
-        .map(|l| {
-            if let Ok(line) = l.as_ref() {
-                Ok(line.trim().to_owned())
-            } else {
-                l
-            }
-        })
-        .peekable();
+        .filter(|result| result.as_ref().map(|line| !line.is_empty()).unwrap_or(true))
+        .map(|result| result.map(|line| line.trim().to_owned())); // TODO: check if owning is necessary here
 
-    let version = parse_version(&mut content_line_iter)?;
-    let config = parse_header(&mut content_line_iter)?;
+    let version = if let Some(line) = content_line_iter.next() {
+        let line = line?;
+        if &line[..5] == "#Life" {
+            line[5..].trim().to_owned()
+        } else {
+            return Err(ParseError::InvalidFormat(
+                "Unknown .life/.lif format".to_owned(),
+            ));
+        }
+    } else {
+        return Err(ParseError::Empty);
+    };
 
-    let alive_list = match version.as_ref() {
-        "1.05" => parse_life_105_cell_blocks(&mut content_line_iter)?,
-        "1.06" => parse_life_106_list(&mut content_line_iter)?,
+    match version.as_str() {
+        "1.05" => parse_life_105(&mut content_line_iter),
+        "1.06" => parse_life_106(&mut content_line_iter),
         _ => {
             return Err(ParseError::InvalidFormat(
                 "Unknown .life/.lif version".to_owned(),
             ))
         }
-    };
-
-    // TODO: Calculate size from alive_list and adjust list to center on top left.
-    let size = Size {
-        width: 0,
-        height: 0,
-    };
-
-    Ok(Pattern {
-        size,
-        alive_list,
-        config,
-    })
+    }
 }
 
-fn parse_version(
-    input: &mut impl Iterator<Item = io::Result<String>>,
-) -> Result<String, ParseError> {
-    if let Some(line) = input.next() {
+fn parse_comment(config: &mut Config, line: &str) -> Result<(), ParseError> {
+    if line.is_empty() || line == "#" {
+        return Ok(());
+    } else if &line[..1] != "#" {
+        return Err(ParseError::InvalidFormat(
+            "Tried to parse and invalid comment line".to_owned(),
+        ));
+    }
+
+    match &line[..2] {
+        "#N" => config.ruleset = Some(Rules::default()),
+        "#C" | "#D" => config.description.push(line[2..].trim().to_owned()),
+        "#R" => config.ruleset = Some(Rules::from_str(&line[2..].trim())?),
+        "#O" => config.author = Some(line[2..].trim().to_owned()),
+        _ => {} // TODO: Log when unknown "#" line is found
+    }
+
+    Ok(())
+}
+
+fn parse_life_105(input: impl Iterator<Item = io::Result<String>>) -> Result<Pattern, ParseError> {
+    let mut config = Config::default();
+    let mut cells = Vec::new();
+    let mut current_block_origin = Point::default();
+    let mut current_y_offset = 0;
+    for line in input {
         let line = line?;
-        if &line[..5] != "#Life" {
-            Err(ParseError::InvalidFormat(
-                "Invalid .life/.lif file format".to_owned(),
-            ))
-        } else {
-            Ok(line[6..].to_owned())
-        }
-    } else {
-        Err(ParseError::Empty)
-    }
-}
-
-fn parse_header(
-    input: &mut Peekable<impl Iterator<Item = io::Result<String>>>,
-) -> Result<PatternConfig, ParseError> {
-    let mut description: Option<String> = None;
-    let mut ruleset = None;
-    let mut author = None;
-    let wrap_edges = false;
-
-    // Fails to parse last header line, if file has no content
-    while let Some(next_line) = input.peek() {
-        if let Ok(next_line_str) = next_line {
-            // TODO: Handle empty lines
-            if &next_line_str[..1] != "#" || &next_line_str[..2] == "#P" {
-                return Ok(PatternConfig {
-                    description,
-                    ruleset,
-                    author,
-                    wrap_edges,
-                });
-            }
-        }
-
-        if let Some(line) = input.next() {
-            let line = line?;
-
-            if line.is_empty() {
-                continue;
-            }
-
+        if &line[..1] == "#" {
             match &line[..2] {
-                "#C" | "#D" => {
-                    if description.is_none() {
-                        description = Some(String::new());
-                    }
-                    description = description.map(|desc| desc + line[2..].trim() + "\n");
+                "#P" => {
+                    current_block_origin = Point::from_str(&line[2..])?;
+                    current_y_offset = 0;
                 }
-                "#N" => ruleset = Some(Rules::default()),
-                "#R" => ruleset = Some(Rules::from_str(&line[2..].trim())?),
-                "#O" => author = Some(line[2..].to_owned()),
-                _ => break,
+                _ => parse_comment(&mut config, &line)?,
             }
+        } else {
+            for (i, c) in line.chars().enumerate() {
+                if c == '*' {
+                    cells.push(Cell::from_coords(
+                        current_block_origin.x + i as isize,
+                        current_block_origin.y + current_y_offset,
+                    ))
+                }
+            }
+            current_y_offset += 1;
         }
     }
-
-    Ok(PatternConfig {
-        ruleset,
-        description,
-        author,
-        wrap_edges,
-    })
+    Ok(Pattern::new(cells, config))
 }
 
-fn parse_life_105_cell_blocks(
-    input: impl Iterator<Item = io::Result<String>>,
-) -> Result<Vec<Cell>, ParseError> {
-    panic!("Not implemented!");
-}
-
-fn parse_life_106_list(
-    input: impl Iterator<Item = io::Result<String>>,
-) -> Result<Vec<Cell>, ParseError> {
-    input
-        .map(|line| {
-            let line = line?;
-            let mut coords = line.split(' ');
-            let x: u32 = match coords.next() {
-                Some(x) => x.parse()?,
-                None => {
-                    return Err(ParseError::InvalidFormat(format!(
-                        "{}: Line contains invalid x position format",
-                        line
-                    )))
-                }
-            };
-            let y: u32 = match coords.next() {
-                Some(y) => y.parse()?,
-                None => {
-                    return Err(ParseError::InvalidFormat(format!(
-                        "{}: Line contains invalid y position format",
-                        line
-                    )))
-                }
-            };
-
-            Ok(Cell::new_alive(x, y))
-        })
-        .collect()
+fn parse_life_106(input: impl Iterator<Item = io::Result<String>>) -> Result<Pattern, ParseError> {
+    let mut config = Config::default();
+    let mut cells = Vec::new();
+    for line in input {
+        let line = line?;
+        if &line[..1] == "#" {
+            parse_comment(&mut config, &line)?;
+        } else {
+            let coords = Point::from_str(&line)?;
+            cells.push(Cell::new(coords, CellStatus::Alive));
+        }
+    }
+    Ok(Pattern::new(cells, config))
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::parser::Size;
 
     #[test]
     fn parse_life_106_glider() {
         let input = "#Life 1.06
+#R 23/3
 0 0
 0 1
 1 0
 
+#C Explaining something.
 1 2
 2 0"
         .as_bytes();
         let output = Pattern {
-            alive_list: vec![
-                Cell::new_alive(0, 0),
-                Cell::new_alive(0, 1),
-                Cell::new_alive(1, 0),
-                Cell::new_alive(1, 2),
-                Cell::new_alive(2, 0),
+            alive: vec![
+                Cell::from_coords(0, 0),
+                Cell::from_coords(0, 1),
+                Cell::from_coords(1, 0),
+                Cell::from_coords(1, 2),
+                Cell::from_coords(2, 0),
             ],
-            config: PatternConfig {
+            config: Config {
                 author: None,
-                description: None,
-                ruleset: None,
+                description: vec!["Explaining something.".to_owned()],
+                ruleset: Some(Rules::new(vec![2, 3], vec![3])),
                 wrap_edges: false,
-            },
-            size: Size {
-                height: 0,
-                width: 0,
             },
         };
 
-        assert_eq!(parse(input).unwrap(), output);
+        let parsed = parse(input).unwrap();
+        assert_eq!(parsed.size(), Size::new(3, 3));
+        assert_eq!(parsed, output);
     }
 
     #[test]
@@ -204,28 +148,36 @@ mod tests {
 ***
 
 *..
-.*."
+.*.
+
+#P 12 5
+*.*
+.
+*"
         .as_bytes();
         let output = Pattern {
-            alive_list: vec![
-                Cell::new_alive(0, 0),
-                Cell::new_alive(0, 1),
-                Cell::new_alive(0, 2),
-                Cell::new_alive(1, 0),
-                Cell::new_alive(2, 1),
+            alive: vec![
+                Cell::from_coords(0, 0),
+                Cell::from_coords(1, 0),
+                Cell::from_coords(2, 0),
+                Cell::from_coords(0, 1),
+                Cell::from_coords(1, 2),
+                Cell::from_coords(12, 5),
+                Cell::from_coords(14, 5),
+                Cell::from_coords(12, 7),
             ],
-            config: PatternConfig {
+            config: Config {
                 author: Some(String::from("John Doe")),
-                description: Some(String::from("This is a glider.\nIt's an easy pattern.")),
+                description: vec![
+                    "This is a glider.".to_owned(),
+                    "It's an easy pattern.".to_owned(),
+                ],
                 ruleset: Some(Rules::default()),
                 wrap_edges: false,
             },
-            size: Size {
-                height: 0,
-                width: 0,
-            },
         };
-
-        assert_eq!(parse(input).unwrap(), output);
+        let parsed = parse(input).unwrap();
+        assert_eq!(parsed.size(), Size::new(15, 8));
+        assert_eq!(parsed, output);
     }
 }

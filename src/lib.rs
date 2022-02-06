@@ -1,4 +1,4 @@
-use parser::Rules;
+use parser::{Pattern, Rules};
 use std::env;
 use std::error::Error;
 use std::path::Path;
@@ -11,22 +11,43 @@ pub struct Config {
 }
 
 pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
-    let pattern = parser::load_file(Path::new(&config.filename));
-    run_naive();
+    let pattern = parser::load_file(Path::new(&config.filename))?;
+    run_naive(pattern);
     Ok(())
 }
 
-fn run_naive() {
+fn run_naive(pattern: Pattern) {
     use naive::*;
     use std::thread;
     use std::time;
-    let mut game = Game::new(5, 5, Rules::default());
+    let gamesize = pattern.size();
+    let mut game = Game::new(
+        gamesize.width,
+        gamesize.height,
+        pattern.config.ruleset.unwrap_or_default(),
+    );
 
-    game[0][1] = Cell::Alive;
-    game[1][2] = Cell::Alive;
-    game[2][0] = Cell::Alive;
-    game[2][1] = Cell::Alive;
-    game[2][2] = Cell::Alive;
+    let min_x = pattern
+        .alive
+        .iter()
+        .min_by_key(|cell| cell.pos.x)
+        .unwrap()
+        .pos
+        .x;
+    let min_y = pattern
+        .alive
+        .iter()
+        .min_by_key(|cell| cell.pos.y)
+        .unwrap()
+        .pos
+        .y;
+
+    // Move pattern to the top left corner of the game world
+    for cell in pattern.alive {
+        let x = cell.pos.x - min_x;
+        let y = cell.pos.y - min_y;
+        game[y as usize][x as usize] = Cell::Alive;
+    }
 
     loop {
         println!("{}", game);

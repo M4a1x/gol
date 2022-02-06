@@ -9,19 +9,15 @@ pub struct Rules {
 
 impl Rules {
     pub fn new(survive: Vec<u8>, birth: Vec<u8>) -> Self {
-        if !Self::is_valid_ruleset(&survive) {
-            panic!(format!("Invalid ruleset: {:?}", survive));
+        if !is_valid_ruleset(&survive) {
+            panic!("Invalid ruleset: {:?}", survive);
         }
 
-        if !Self::is_valid_ruleset(&birth) {
-            panic!(format!("Invalid ruleset: {:?}", survive));
+        if !is_valid_ruleset(&birth) {
+            panic!("Invalid ruleset: {:?}", survive);
         }
 
         Rules { survive, birth }
-    }
-
-    fn is_valid_ruleset(ruleset: &[u8]) -> bool {
-        ruleset.iter().filter(|&num| num > &8).count() == 0
     }
 
     pub fn get_birthrule(&self) -> &[u8] {
@@ -31,6 +27,10 @@ impl Rules {
     pub fn get_surviverule(&self) -> &[u8] {
         &self.survive
     }
+}
+
+fn is_valid_ruleset(ruleset: &[u8]) -> bool {
+    !ruleset.iter().any(|num| num > &8)
 }
 
 impl Default for Rules {
@@ -81,27 +81,27 @@ impl FromStr for Rules {
             return Err(ParseError::InvalidFormat(s.into()));
         }
 
-        fn parse_ruleset(s: &str) -> Result<Vec<u8>, ParseError> {
-            let mut ruleset = s
-                .chars()
-                .map(|c| c.to_digit(10).map(|d| (d as u8)))
-                .collect::<Option<Vec<_>>>()
-                .ok_or_else(|| ParseError::InvalidDigit(s.into()))?;
-
-            if ruleset.contains(&9) {
-                return Err(ParseError::InvalidDigit("9".into()));
-            }
-
-            ruleset.sort_unstable();
-            ruleset.dedup();
-            Ok(ruleset)
-        }
-
         let survive = parse_ruleset(rules[0])?;
         let birth = parse_ruleset(rules[1])?;
 
         Ok(Rules { survive, birth })
     }
+}
+
+fn parse_ruleset(s: &str) -> Result<Vec<u8>, ParseError> {
+    let mut ruleset = s
+        .chars()
+        .map(|c| c.to_digit(10).map(|d| (d as u8)))
+        .collect::<Option<Vec<_>>>()
+        .ok_or_else(|| ParseError::InvalidDigit(s.into()))?;
+
+    if ruleset.contains(&9) {
+        return Err(ParseError::InvalidDigit("9".into()));
+    }
+
+    ruleset.sort_unstable();
+    ruleset.dedup();
+    Ok(ruleset)
 }
 
 #[cfg(test)]
