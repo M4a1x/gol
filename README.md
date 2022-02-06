@@ -75,3 +75,11 @@ ToDo
 * Read in of [.lif/.life files among others](http://www.mirekw.com/ca/ca_files_formats.html)
 * Output via tui+crossterm
 * CLI parsing with clap
+
+See also
+--------
+
+* [ca-rules](https://crates.io/crates/ca-rules) - A parser for rule strings
+* [ca-formats](https://crates.io/crates/ca-formats) - Parses RLE, Plaintext, apgcode & Macrocell format
+* [game-of-life-parsers](https://crates.io/crates/game-of-life-parsers) - Parses Life 1.05 & Life 1.06
+* [rlifesrc](https://crates.io/crates/rlifesrc) - Searches Game of Life Patterns
